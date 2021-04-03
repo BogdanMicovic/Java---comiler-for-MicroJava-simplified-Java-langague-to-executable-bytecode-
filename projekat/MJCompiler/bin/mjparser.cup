@@ -1,0 +1,464 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+   boolean errorDetected;
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+       errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+     public void report_error1(String message, Object info) {
+  		errorDetected = false;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+init with {:
+	errorDetected = false;
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROGRAM, BREAK, CLASS, ABSTRACT, ELSE, CONST, IF, NEW, PRINT, READ, FOREACH, RETURN, FOR;
+terminal CONTINUE, EXTENDS, PLUS, MINUS, MUL, DIV, PERCENT, EQUAL, DIFFERENT, BIGGER, BIGGEREQ, LESS;
+terminal LESSEQ, AND, OR, ASSIGN, INC, DEC, SEMICOMMA, COMMA, DOT, LCURLY, RCURLY, LSQUARE, RSQUARE;
+terminal LBRACKET, RBRACKET, COLON, VOID, PLUSEQUAL, MINUSEQUAL, MULEQUAL, DIVEQUAL;
+terminal PERCENTEQUAL;
+terminal String IDENT;
+terminal Integer NUM;
+terminal Character CHAR;
+terminal Boolean BOOL;
+terminal DOLAR;
+
+nonterminal  DeclList, Declaration,  ConstantDeclarations;
+nonterminal  VarDecl, VarDeclarations, VarDeclaration, MultipleSquareBrackets;
+nonterminal SquareBrackets, ClassDecl, ExtendsTypes, ExtendsTypesOne, VarDeclList, MethodDeclList;
+nonterminal MethodDeclListOne, MulMethodDeclListOne, MethodDecl,  OptFormParsList;
+nonterminal FormParsList,  FormParsListOneTwo, StatementList, Statement;
+nonterminal  MulIdentOrExpr, MulIdentOrExprOne,  DesigEnd, DesigStart;
+nonterminal ElseStatementOpt, ActParsLBracket, ActParsRBracket;
+nonterminal  OptNumConst, AbstractClassDecl, MethodDeclOrAbstractMethodDeclOpt, DesigStateStart, DesigStateEnd;
+nonterminal MethodDeclOrAbstractMethodDeclList, MethodDeclOrAbstractMethodDecl, AbstractMethodDecl;
+nonterminal MulSqBrackets, SqBrac, LBracketIf, IfStatement, ElseStat, LBracketFor, ForStatement, ConditionFor;  
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, Constant, ConstantDeclaration;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ConstDecl, Designator, DesignatorStatement,Mulop, Loperation;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Term,Expr,Factor, ActParsOptOpt, ActParsOpt, ActPars, LeftExpr;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Addop, SquareExprOpt, RightOp, Assignop, ForeachIdent;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorStatementOpt, OptDesignatorSatement, OptExpr,MethodDeclTypes;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj CondFact, CondTerm, Condition, Relop, OptCondition,DesignatorName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+
+precedence left ELSE;
+
+Program ::= (Program) PROGRAM ProgName:p DeclList LCURLY MulMethodDeclListOne RCURLY;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+DeclList ::= (MyDeclList) DeclList Declaration
+		 |
+		 (MyNoDeclList) /* epsilon */
+		 ;
+		 
+Declaration ::= (MyConstats) ConstDecl
+			|
+			(MyVars) VarDecl
+			|
+			(MyAbstractClasses) AbstractClassDecl
+			|
+			(MyClasses) ClassDecl
+			;
+			
+ConstDecl ::= (ConstDecl) CONST Type ConstantDeclarations SEMICOMMA;
+
+		  
+ConstantDeclarations ::= (MyConstantDeclarationsRecursive) ConstantDeclarations COMMA ConstantDeclaration
+					 |
+					 (MyConstantDeclarationsNonRecursive)ConstantDeclaration 
+					 ;
+					 
+ConstantDeclaration ::= (ConstantDeclaration) IDENT:constName ASSIGN Constant:constValue;
+
+Constant ::= (MyConstNum) NUM:constInt	
+		 |
+		 (MyConstChar) CHAR:constChar
+		 |
+		 (MyConstBool) BOOL:constBool
+		 ;
+		 
+
+Type ::= (MyType) IDENT:typeName;
+
+VarDecl ::= (MyVarDecl) Type:varType VarDeclarations SEMICOMMA;
+        
+VarDeclarations ::= (MyVarDeclarationsRecursive) VarDeclarations COMMA VarDeclaration
+				|
+				(MyVarDeclarationsNonRecursive) VarDeclaration
+				;
+
+
+VarDeclaration ::= (MyVarDeclaration) IDENT:varName MultipleSquareBrackets
+               |
+		       (VarDeclError) error:el
+               {: parser.report_error("Uspesan oporavak od greske pri deklarisanju promenljive na liniji "+elleft, null); :}
+               ;
+
+MultipleSquareBrackets ::= (MyMultipleSquareBrackets) SquareBrackets
+					   |
+					   (NoMyMultipleSquareBrackets) /* epsilon */ 
+					   ; 
+
+SquareBrackets ::= (MySquareBrackets) LSQUARE:lsquare RSQUARE:rsquare;
+
+ClassDecl ::= (MyClassDecl) CLASS IDENT:className  ExtendsTypes LCURLY VarDeclList MethodDeclList RCURLY;
+
+ExtendsTypes ::= (MyExtendsTypes) ExtendsTypesOne
+			 |
+			 (NoMyExtendsTypes) /* epsilon */
+			 ;
+			 
+ExtendsTypesOne ::= (MyExtendsTypesOne) EXTENDS Type;
+
+VarDeclList ::= (MyVarDeclList) VarDeclList VarDecl 
+		   |
+		   (NoMyVarDeclList) /* epsilon */
+		   ;
+
+
+MethodDeclList ::= (MyMethodDeclList) MethodDeclListOne
+			   |
+			   (NoMyMhetodDeclList) /* epsilon */
+			   ;
+		
+MethodDeclListOne ::= (MyMethodDeclListOne) LCURLY MulMethodDeclListOne RCURLY;
+
+MulMethodDeclListOne ::= (MyMulMethodDeclListOneRecursive) MulMethodDeclListOne MethodDecl
+					 |
+					 (MyMulMethodDeclListOneNonRecursive) /* epsilon */
+					 ;
+
+MethodDecl ::= (MyMethodDecl) MethodDeclTypes IDENT:methodName LBRACKET OptFormParsList RBRACKET VarDeclList LCURLY StatementList RCURLY;
+
+MethodDeclTypes ::= (MyMethodDeclTypesType) Type:returnType
+				| 
+				(MyMethodDeclTypesTypeVoid) VOID:returnVoid 
+				;
+		
+OptFormParsList ::= (MyOptFormParsList) FormParsList
+				|
+				(NoMyOptFormParsList) /* epsilon */
+				;		
+		
+		
+FormParsList ::= (MyFormParsListRecursive) FormParsList COMMA FormParsListOneTwo
+			 |
+			 (MyFormParsListNonRecursive) FormParsListOneTwo
+			  ;
+
+
+
+
+FormParsListOneTwo ::= (MyFormParsListOneTwo) Type IDENT:formParName MulSqBrackets
+				   |
+				   (FormParsListError) error:err
+				   {: parser.report_error("Uspesan oporavak od greske pri deklaraciji formalnog parametra na liniji "+errleft, null); :}
+				   ;
+
+MulSqBrackets ::= (MyMulSqBrackets) SqBrac
+			  |
+			  (NoMyMulSqBrackets) /* epsilon */
+			  ;
+			  
+SqBrac ::=  (MySqBrac) LSQUARE:lsqa RSQUARE:rsqa;
+
+StatementList ::= (MyStatementList) StatementList Statement
+			  |
+			  (NoMyStatementList) /* epsilon */
+			  ;
+
+Statement ::= (MyDesignatorStatement) DesignatorStatement SEMICOMMA
+		  |
+		  (ErrAssignment) error SEMICOMMA:sc
+		  {: parser.report_error("Uspesan oporavak od greske pri dodeli vrednosti na liniji "+scleft, null); :}
+		  |
+		  (MyIfStatement) IF LBracketIf Condition RBRACKET IfStatement Statement ElseStatementOpt
+		  |
+		  (MyForStatement) FOR LBracketFor OptDesignatorSatement SEMICOMMA ConditionFor OptCondition SEMICOMMA DesigStateStart OptDesignatorSatement DesigStateEnd RBRACKET ForStatement Statement
+		  | 
+		  (MyBreakStatement) BREAK SEMICOMMA
+		  |
+		  (MyContinueStatement) CONTINUE SEMICOMMA
+		  |
+		  (MyReturnStatement) RETURN OptExpr SEMICOMMA
+		  |
+		  (MyReadStatement) READ LBRACKET Designator RBRACKET SEMICOMMA 
+		  |
+		  (MyPrintStatement) PRINT LBRACKET Expr OptNumConst RBRACKET SEMICOMMA
+		  |
+		  (MyStatemets) 	LCURLY  StatementList RCURLY
+		  | 
+		  (MyForEachStatement) FOREACH LBRACKET ForeachIdent COLON DesigStart Designator DesigEnd RBRACKET Statement   
+		  ;
+		  
+ForeachIdent ::= (ForeachIdent) IDENT:name;
+
+DesigEnd ::= (DesigEnd) /* epsilon */ ;
+
+DesigStart ::= (DesigStart) /* epsilon */ ;
+		  
+DesignatorStatement ::= (DesignatorStatement) Designator:d DesignatorStatementOpt;
+ 					
+ 					
+DesignatorStatementOpt ::= (MyDesigSteteAssignOpExpr) Assignop Expr:e
+ 					|
+ 					(MyDesigStateActParsList) ActParsOptOpt 
+ 					|
+ 					(MyDesigStateInc) INC:inc
+ 					|
+ 					(MyDesigStateDec) DEC:dec
+ 					; 	  
+ 					
+Designator ::= (Designator) IDENT:desigatorName MulIdentOrExpr;
+
+
+
+MulIdentOrExpr ::= (MyMMulIdentOrExprRecursive) MulIdentOrExpr MulIdentOrExprOne
+			   |
+			   (MyMulIdentOrExprNonRecursive) /* epsilon */
+			   ;
+			   
+
+MulIdentOrExprOne ::= (MyMulIdentOrExprOneIdent)	DOT IDENT 
+				  |
+				  (MyMulIdentOrExprOneExpr)	Loperation Expr RSQUARE
+				  ;		
+				  
+Loperation ::= (Loperation) LSQUARE;
+
+	
+Expr ::= (MyExpr) LeftExpr RightOp Expr 
+		|
+		(MyLeftExpr) LeftExpr
+		;	
+				
+LeftExpr ::= (AddExpr) LeftExpr Addop Term 
+	      |
+	      (TermExpr) Term
+	      | 
+	      (MinusTermExpr) MINUS Term
+	      |
+	      (BinaryExpr) LeftExpr DOLAR 
+	      ;				  
+				  
+ 
+Term ::= (MulTerm)  Term:t Mulop Factor:tf
+	 |
+	 (FactTerm)	Factor:f
+	 ;
+
+Factor ::= (MyFactor) Designator:d ActParsOptOpt
+	   |
+	   (MyFactorNum) NUM
+	   |
+	   (MyFactorChar) CHAR
+	   |
+	   (MyFactorBool) BOOL
+	   |
+	   (MyFactorNew) NEW Type SquareExprOpt
+	   |
+	   (MyFactorExpr) LBRACKET Expr RBRACKET
+	   ;
+
+ActParsOptOpt ::= (MyActParsOptOpt) ActParsLBracket ActParsOpt ActParsRBracket
+			  |
+			  (NoMyActParsOptOpt)
+			  ;
+
+ActParsLBracket ::= (ActParsLBracket) LBRACKET;
+
+ActParsRBracket ::= (ActParsRBracket) RBRACKET;
+
+ActParsOpt ::= (MyActParsOpt) ActPars
+			|
+			(NoMyActParsOpt) /* epsilon */
+			;
+		  
+ActPars ::= (MyActParsRecursive) ActPars COMMA Expr
+		|
+		(MyActParsNonRecursive) Expr
+		;
+		
+SquareExprOpt ::= (MySquareExprOpt) LSQUARE Expr RSQUARE
+			  |
+			  (NoMySquareExprOpt) /* epsilon */
+			  ;
+		
+Mulop ::= (MulopLeftMul) MUL
+          |
+          (MulopLeftDiv) DIV
+		  |
+		  (MulopLeftPercent) PERCENT
+		  ;
+	  
+Addop ::= (AddopLeftPlus) PLUS
+		  |
+		  (AddopLeftMinus) MINUS
+		  ;
+		  
+	  
+Assignop ::= (MyAssignop) ASSIGN
+		 |
+		 (MyAssignopRight) RightOp
+		 ;
+		 
+RightOp    ::= (PlusEqual) PLUSEQUAL
+		   |
+		   (MinusEqual) MINUSEQUAL
+		   |
+		   (MulEqual) MULEQUAL
+		   |
+		   (DivEqual) DIVEQUAL
+		   |
+		   (PercentEqual) PERCENTEQUAL
+		   ; 
+  		   
+LBracketIf ::= (LBracketIf) LBRACKET;		
+
+IfStatement ::= (IfStatement) /* epsilon */;   
+  		   
+Condition ::= (MyConditionRecursive) Condition OR CondTerm
+		  |
+		  (MyConditionNonRecursive) CondTerm
+		  ;
+
+CondTerm ::= (MyCondTermRecursive) CondTerm AND CondFact
+		 |
+		 (MyCondTermNonRecursive) CondFact
+		 ;
+		 
+CondFact ::= (MyCondFactExpr) Expr:exprLeft 
+		 |
+		 (MyCondFactExorRelop) Expr:exprL Relop Expr:exprR
+		 ;
+
+
+			 
+Relop ::= (MyRelopEqual) EQUAL:equalCompare
+	  |
+	  (MyRelopDifferent) DIFFERENT:notEqualCompare
+	  |
+	  (MyRelopBigger) BIGGER
+	  |
+	  (MyRelopBiggerEq) BIGGEREQ
+	  |
+	  (MyRelopLess) LESS
+	  |
+	  (MyRelopLessEq) LESSEQ
+	  ;
+	  
+ElseStatementOpt ::= (MyElseStatementOpt) ElseStat Statement
+				 |
+				 (NoMyElseStatementOpt) /* epsilon */
+				 ;
+
+ElseStat ::= (ElseStat) ELSE;
+
+
+LBracketFor ::= (LBracketFor) LBRACKET;
+
+ConditionFor ::= (ConditionFor) /* epsilon */;
+
+DesigStateStart ::= (DesigStateStart) /* epsilon */;
+
+DesigStateEnd ::= (DesigStateEnd) /* epsilon */;
+
+ForStatement ::= (ForStatement) /* epsilon */;
+
+OptDesignatorSatement ::= (MyOptDesignatorSatement) DesignatorStatement
+					  |
+					  (NoMyOptDesignatorSatement) /* epsilon */
+					  ;
+					  
+OptCondition ::= (MyOptCondition) Condition
+			 |
+			 (NoMyOptCondition) /* epsilon */
+	  		 ;
+	  		 
+OptExpr ::= (MyOptExpr) Expr
+		|
+		(NoMyOptExpr) /* epsilon */
+		;
+		
+OptNumConst ::= (MyOptNumConst) COMMA NUM
+			|
+			(NoMyOptNumConst) /* epsilon */
+			;
+			
+AbstractClassDecl ::= (MyAbstractClassDecl) ABSTRACT CLASS IDENT:abstractClassName ExtendsTypes LCURLY VarDeclList MethodDeclOrAbstractMethodDeclOpt RCURLY;
+	  
+MethodDeclOrAbstractMethodDeclOpt ::= (MyMethodDeclOrAbstractMethodDeclOpt)	 LCURLY MethodDeclOrAbstractMethodDeclList RCURLY 
+								  |
+								  (NoMyMethodDeclOrAbstractMethodDeclOpt) /* epsilon */
+								  ; 
+  
+	  
+MethodDeclOrAbstractMethodDeclList ::= (MyMethodDeclOrAbstractMethodDeclList)	MethodDeclOrAbstractMethodDeclList MethodDeclOrAbstractMethodDecl
+								   |
+								   (NoMyMethodDeclOrAbstractMethodDeclList) /* epsilon */
+								   ;
+								   
+								    
+MethodDeclOrAbstractMethodDecl ::= (MyMethodDeclNoAbstract) MethodDecl
+							   |
+							   (MyMethodDeclAbstract) AbstractMethodDecl
+							   ;
+				
+AbstractMethodDecl ::= (MyAbstractMethodDecl) ABSTRACT 	MethodDeclTypes IDENT:abstractMethodName LBRACKET OptFormParsList RBRACKET SEMICOMMA
+				   |
+				   (MyAbstractMethodDeclError) error error SEMICOMMA:l
+				   {: parser.report_error("Izvrsen oporavak Abstraktnog Metoda do ; u liniji " + lleft, null);  :};	  
+		           
+			
+
+
+

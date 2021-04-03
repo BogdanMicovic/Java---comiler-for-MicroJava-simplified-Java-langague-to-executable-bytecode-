@@ -1,0 +1,2365 @@
+INFO  11:42:47,044 - Compiling source file: C:\Users\HP\Desktop\projekat\MJCompiler\test\program.mj
+INFO  11:42:47,126 - #2 program
+INFO  11:42:47,126 - #49 test302
+INFO  11:42:47,126 - #7 const
+INFO  11:42:47,127 - #49 int
+INFO  11:42:47,128 - #49 jedan
+INFO  11:42:47,128 - #30 =
+INFO  11:42:47,128 - #50 1
+INFO  11:42:47,128 - #33 ;
+INFO  11:42:47,129 - #49 int
+INFO  11:42:47,130 - #49 i
+INFO  11:42:47,130 - #33 ;
+INFO  11:42:47,131 - #49 bool
+INFO  11:42:47,132 - #49 ibool
+INFO  11:42:47,132 - #33 ;
+INFO  11:42:47,132 - #49 int
+INFO  11:42:47,132 - #49 niz
+INFO  11:42:47,132 - #38 [
+INFO  11:42:47,132 - #39 ]
+INFO  11:42:47,132 - #33 ;
+INFO  11:42:47,134 - #36 {
+INFO  11:42:47,134 - #49 int
+INFO  11:42:47,134 - #49 sum
+INFO  11:42:47,135 - #40 (
+INFO  11:42:47,135 - #49 int
+INFO  11:42:47,135 - #49 z
+INFO  11:42:47,135 - #34 ,
+INFO  11:42:47,136 - #49 int
+INFO  11:42:47,136 - #49 d
+INFO  11:42:47,136 - #41 )
+INFO  11:42:47,136 - #36 {
+INFO  11:42:47,137 - #13 return
+INFO  11:42:47,137 - #49 z
+INFO  11:42:47,137 - #17 +
+INFO  11:42:47,139 - #49 d
+INFO  11:42:47,140 - #33 ;
+INFO  11:42:47,141 - #37 }
+INFO  11:42:47,141 - #49 int
+INFO  11:42:47,142 - #49 inkrement
+INFO  11:42:47,142 - #40 (
+INFO  11:42:47,142 - #49 int
+INFO  11:42:47,142 - #49 a
+INFO  11:42:47,142 - #34 ,
+INFO  11:42:47,142 - #49 int
+INFO  11:42:47,142 - #49 inc
+INFO  11:42:47,142 - #41 )
+INFO  11:42:47,142 - #49 int
+INFO  11:42:47,142 - #49 pom
+INFO  11:42:47,142 - #33 ;
+INFO  11:42:47,142 - #36 {
+INFO  11:42:47,143 - #8 if
+INFO  11:42:47,143 - #40 (
+INFO  11:42:47,143 - #49 inc
+INFO  11:42:47,144 - #22 ==
+INFO  11:42:47,144 - #49 jedan
+INFO  11:42:47,145 - #41 )
+INFO  11:42:47,145 - #49 pom
+INFO  11:42:47,146 - #30 =
+INFO  11:42:47,146 - #50 1
+INFO  11:42:47,146 - #33 ;
+INFO  11:42:47,150 - #6 else
+INFO  11:42:47,150 - #8 if
+INFO  11:42:47,150 - #40 (
+INFO  11:42:47,151 - #49 inc
+INFO  11:42:47,151 - #22 ==
+INFO  11:42:47,151 - #50 2
+INFO  11:42:47,151 - #41 )
+INFO  11:42:47,151 - #49 pom
+INFO  11:42:47,151 - #30 =
+INFO  11:42:47,151 - #49 a
+INFO  11:42:47,151 - #33 ;
+INFO  11:42:47,151 - #13 return
+INFO  11:42:47,153 - #49 sum
+INFO  11:42:47,153 - #40 (
+INFO  11:42:47,153 - #49 a
+INFO  11:42:47,153 - #34 ,
+INFO  11:42:47,153 - #49 pom
+INFO  11:42:47,154 - #41 )
+INFO  11:42:47,154 - #33 ;
+INFO  11:42:47,155 - #37 }
+INFO  11:42:47,155 - #49 bool
+INFO  11:42:47,155 - #49 verify
+INFO  11:42:47,155 - #40 (
+INFO  11:42:47,155 - #41 )
+INFO  11:42:47,156 - #36 {
+INFO  11:42:47,156 - #10 print
+INFO  11:42:47,156 - #40 (
+INFO  11:42:47,156 - #51 v
+INFO  11:42:47,156 - #41 )
+INFO  11:42:47,157 - #33 ;
+INFO  11:42:47,157 - #13 return
+INFO  11:42:47,157 - #52 false
+INFO  11:42:47,157 - #33 ;
+INFO  11:42:47,157 - #37 }
+INFO  11:42:47,157 - #43 void
+INFO  11:42:47,157 - #49 main
+INFO  11:42:47,158 - #40 (
+INFO  11:42:47,158 - #41 )
+INFO  11:42:47,158 - #36 {
+INFO  11:42:47,158 - #8 if
+INFO  11:42:47,158 - #40 (
+INFO  11:42:47,158 - #50 1
+INFO  11:42:47,158 - #23 !=
+INFO  11:42:47,158 - #50 1
+INFO  11:42:47,159 - #41 )
+INFO  11:42:47,159 - #10 print
+INFO  11:42:47,159 - #40 (
+INFO  11:42:47,159 - #18 -
+INFO  11:42:47,159 - #50 6
+INFO  11:42:47,159 - #41 )
+INFO  11:42:47,159 - #33 ;
+INFO  11:42:47,159 - #6 else
+INFO  11:42:47,160 - #10 print
+INFO  11:42:47,160 - #40 (
+INFO  11:42:47,160 - #50 0
+INFO  11:42:47,160 - #41 )
+INFO  11:42:47,160 - #33 ;
+INFO  11:42:47,160 - #49 ibool
+INFO  11:42:47,160 - #30 =
+INFO  11:42:47,160 - #52 false
+INFO  11:42:47,160 - #33 ;
+INFO  11:42:47,160 - #49 i
+INFO  11:42:47,160 - #30 =
+INFO  11:42:47,160 - #50 0
+INFO  11:42:47,160 - #33 ;
+INFO  11:42:47,160 - #14 for
+INFO  11:42:47,160 - #40 (
+INFO  11:42:47,161 - #49 i
+INFO  11:42:47,161 - #30 =
+INFO  11:42:47,161 - #50 0
+INFO  11:42:47,161 - #33 ;
+INFO  11:42:47,161 - #49 i
+INFO  11:42:47,162 - #26 <
+INFO  11:42:47,162 - #50 5
+INFO  11:42:47,162 - #33 ;
+INFO  11:42:47,162 - #49 i
+INFO  11:42:47,163 - #31 ++
+INFO  11:42:47,163 - #41 )
+INFO  11:42:47,163 - #36 {
+INFO  11:42:47,164 - #8 if
+INFO  11:42:47,164 - #40 (
+INFO  11:42:47,164 - #49 i
+INFO  11:42:47,164 - #22 ==
+INFO  11:42:47,164 - #50 2
+INFO  11:42:47,164 - #41 )
+INFO  11:42:47,164 - #49 ibool
+INFO  11:42:47,164 - #30 =
+INFO  11:42:47,164 - #52 true
+INFO  11:42:47,164 - #33 ;
+INFO  11:42:47,164 - #37 }
+INFO  11:42:47,164 - #8 if
+INFO  11:42:47,164 - #40 (
+INFO  11:42:47,165 - #49 ibool
+INFO  11:42:47,165 - #41 )
+INFO  11:42:47,165 - #8 if
+INFO  11:42:47,165 - #40 (
+INFO  11:42:47,165 - #49 i
+INFO  11:42:47,165 - #22 ==
+INFO  11:42:47,165 - #50 5
+INFO  11:42:47,165 - #41 )
+INFO  11:42:47,165 - #10 print
+INFO  11:42:47,165 - #40 (
+INFO  11:42:47,165 - #50 1
+INFO  11:42:47,165 - #41 )
+INFO  11:42:47,165 - #33 ;
+INFO  11:42:47,165 - #6 else
+INFO  11:42:47,165 - #10 print
+INFO  11:42:47,165 - #40 (
+INFO  11:42:47,165 - #18 -
+INFO  11:42:47,165 - #50 1
+INFO  11:42:47,165 - #41 )
+INFO  11:42:47,165 - #33 ;
+INFO  11:42:47,165 - #49 niz
+INFO  11:42:47,165 - #30 =
+INFO  11:42:47,166 - #9 new
+INFO  11:42:47,166 - #49 int
+INFO  11:42:47,166 - #38 [
+INFO  11:42:47,166 - #50 3
+INFO  11:42:47,166 - #39 ]
+INFO  11:42:47,166 - #33 ;
+INFO  11:42:47,166 - #49 niz
+INFO  11:42:47,166 - #38 [
+INFO  11:42:47,166 - #50 0
+INFO  11:42:47,167 - #39 ]
+INFO  11:42:47,167 - #30 =
+INFO  11:42:47,167 - #50 1
+INFO  11:42:47,167 - #33 ;
+INFO  11:42:47,168 - #49 niz
+INFO  11:42:47,168 - #38 [
+INFO  11:42:47,168 - #50 1
+INFO  11:42:47,168 - #39 ]
+INFO  11:42:47,168 - #30 =
+INFO  11:42:47,168 - #50 2
+INFO  11:42:47,168 - #33 ;
+INFO  11:42:47,168 - #49 niz
+INFO  11:42:47,168 - #38 [
+INFO  11:42:47,168 - #50 2
+INFO  11:42:47,168 - #39 ]
+INFO  11:42:47,168 - #30 =
+INFO  11:42:47,168 - #49 sum
+INFO  11:42:47,168 - #40 (
+INFO  11:42:47,168 - #49 niz
+INFO  11:42:47,168 - #38 [
+INFO  11:42:47,168 - #50 1
+INFO  11:42:47,169 - #39 ]
+INFO  11:42:47,169 - #34 ,
+INFO  11:42:47,169 - #49 niz
+INFO  11:42:47,169 - #38 [
+INFO  11:42:47,169 - #50 0
+INFO  11:42:47,169 - #39 ]
+INFO  11:42:47,169 - #41 )
+INFO  11:42:47,169 - #17 +
+INFO  11:42:47,169 - #50 1
+INFO  11:42:47,169 - #33 ;
+INFO  11:42:47,169 - #8 if
+INFO  11:42:47,169 - #40 (
+INFO  11:42:47,169 - #49 niz
+INFO  11:42:47,169 - #38 [
+INFO  11:42:47,169 - #50 2
+INFO  11:42:47,169 - #39 ]
+INFO  11:42:47,169 - #22 ==
+INFO  11:42:47,169 - #50 4
+INFO  11:42:47,169 - #29 ||
+INFO  11:42:47,169 - #49 verify
+INFO  11:42:47,170 - #40 (
+INFO  11:42:47,170 - #41 )
+INFO  11:42:47,171 - #41 )
+INFO  11:42:47,171 - #10 print
+INFO  11:42:47,171 - #40 (
+INFO  11:42:47,171 - #49 ord
+INFO  11:42:47,171 - #40 (
+INFO  11:42:47,171 - #51 A
+INFO  11:42:47,171 - #41 )
+INFO  11:42:47,171 - #41 )
+INFO  11:42:47,171 - #33 ;
+INFO  11:42:47,171 - #6 else
+INFO  11:42:47,171 - #10 print
+INFO  11:42:47,171 - #40 (
+INFO  11:42:47,171 - #49 ord
+INFO  11:42:47,171 - #40 (
+INFO  11:42:47,171 - #51 a
+INFO  11:42:47,171 - #41 )
+INFO  11:42:47,171 - #41 )
+INFO  11:42:47,171 - #33 ;
+INFO  11:42:47,172 - #10 print
+INFO  11:42:47,172 - #40 (
+INFO  11:42:47,172 - #49 eol
+INFO  11:42:47,172 - #41 )
+INFO  11:42:47,172 - #33 ;
+INFO  11:42:47,172 - #49 i
+INFO  11:42:47,172 - #30 =
+INFO  11:42:47,172 - #50 0
+INFO  11:42:47,172 - #33 ;
+INFO  11:42:47,172 - #14 for
+INFO  11:42:47,172 - #40 (
+INFO  11:42:47,172 - #33 ;
+INFO  11:42:47,173 - #49 i
+INFO  11:42:47,173 - #26 <
+INFO  11:42:47,173 - #50 10
+INFO  11:42:47,173 - #33 ;
+INFO  11:42:47,173 - #41 )
+INFO  11:42:47,173 - #36 {
+INFO  11:42:47,173 - #8 if
+INFO  11:42:47,173 - #40 (
+INFO  11:42:47,173 - #49 i
+INFO  11:42:47,173 - #22 ==
+INFO  11:42:47,173 - #50 3
+INFO  11:42:47,173 - #41 )
+INFO  11:42:47,173 - #36 {
+INFO  11:42:47,174 - #49 i
+INFO  11:42:47,174 - #31 ++
+INFO  11:42:47,174 - #33 ;
+INFO  11:42:47,174 - #15 continue
+INFO  11:42:47,174 - #33 ;
+INFO  11:42:47,174 - #37 }
+INFO  11:42:47,174 - #8 if
+INFO  11:42:47,174 - #40 (
+INFO  11:42:47,174 - #49 i
+INFO  11:42:47,174 - #22 ==
+INFO  11:42:47,175 - #50 4
+INFO  11:42:47,175 - #41 )
+INFO  11:42:47,175 - #3 break
+INFO  11:42:47,175 - #33 ;
+INFO  11:42:47,175 - #49 i
+INFO  11:42:47,175 - #30 =
+INFO  11:42:47,175 - #49 inkrement
+INFO  11:42:47,175 - #40 (
+INFO  11:42:47,175 - #49 i
+INFO  11:42:47,175 - #34 ,
+INFO  11:42:47,175 - #50 1
+INFO  11:42:47,175 - #41 )
+INFO  11:42:47,175 - #33 ;
+INFO  11:42:47,175 - #37 }
+INFO  11:42:47,176 - #8 if
+INFO  11:42:47,176 - #40 (
+INFO  11:42:47,176 - #49 i
+INFO  11:42:47,176 - #22 ==
+INFO  11:42:47,176 - #50 3
+INFO  11:42:47,176 - #28 &&
+INFO  11:42:47,176 - #49 verify
+INFO  11:42:47,176 - #40 (
+INFO  11:42:47,176 - #41 )
+INFO  11:42:47,176 - #41 )
+INFO  11:42:47,176 - #10 print
+INFO  11:42:47,176 - #40 (
+INFO  11:42:47,176 - #50 4
+INFO  11:42:47,176 - #41 )
+INFO  11:42:47,176 - #33 ;
+INFO  11:42:47,176 - #6 else
+INFO  11:42:47,176 - #10 print
+INFO  11:42:47,176 - #40 (
+INFO  11:42:47,176 - #18 -
+INFO  11:42:47,176 - #50 4
+INFO  11:42:47,176 - #41 )
+INFO  11:42:47,176 - #33 ;
+INFO  11:42:47,176 - #11 read
+INFO  11:42:47,177 - #40 (
+INFO  11:42:47,177 - #49 niz
+INFO  11:42:47,177 - #38 [
+INFO  11:42:47,177 - #50 0
+INFO  11:42:47,177 - #39 ]
+INFO  11:42:47,177 - #41 )
+INFO  11:42:47,177 - #33 ;
+INFO  11:42:47,177 - #11 read
+INFO  11:42:47,177 - #40 (
+INFO  11:42:47,177 - #49 niz
+INFO  11:42:47,177 - #38 [
+INFO  11:42:47,177 - #50 1
+INFO  11:42:47,177 - #39 ]
+INFO  11:42:47,177 - #41 )
+INFO  11:42:47,177 - #33 ;
+INFO  11:42:47,177 - #11 read
+INFO  11:42:47,177 - #40 (
+INFO  11:42:47,177 - #49 niz
+INFO  11:42:47,177 - #38 [
+INFO  11:42:47,177 - #50 2
+INFO  11:42:47,177 - #39 ]
+INFO  11:42:47,177 - #41 )
+INFO  11:42:47,177 - #33 ;
+INFO  11:42:47,177 - #10 print
+INFO  11:42:47,178 - #40 (
+INFO  11:42:47,178 - #49 eol
+INFO  11:42:47,178 - #41 )
+INFO  11:42:47,178 - #33 ;
+INFO  11:42:47,178 - #10 print
+INFO  11:42:47,178 - #40 (
+INFO  11:42:47,178 - #49 sum
+INFO  11:42:47,178 - #40 (
+INFO  11:42:47,178 - #49 sum
+INFO  11:42:47,178 - #40 (
+INFO  11:42:47,178 - #49 niz
+INFO  11:42:47,178 - #38 [
+INFO  11:42:47,178 - #50 0
+INFO  11:42:47,178 - #39 ]
+INFO  11:42:47,178 - #34 ,
+INFO  11:42:47,178 - #49 niz
+INFO  11:42:47,178 - #38 [
+INFO  11:42:47,178 - #50 1
+INFO  11:42:47,178 - #39 ]
+INFO  11:42:47,178 - #41 )
+INFO  11:42:47,178 - #34 ,
+INFO  11:42:47,178 - #49 niz
+INFO  11:42:47,178 - #38 [
+INFO  11:42:47,178 - #50 2
+INFO  11:42:47,178 - #39 ]
+INFO  11:42:47,178 - #41 )
+INFO  11:42:47,179 - #41 )
+INFO  11:42:47,179 - #33 ;
+INFO  11:42:47,179 - #12 foreach
+INFO  11:42:47,179 - #40 (
+INFO  11:42:47,179 - #49 i
+INFO  11:42:47,179 - #42 :
+INFO  11:42:47,179 - #49 niz
+INFO  11:42:47,180 - #41 )
+INFO  11:42:47,180 - #36 {
+INFO  11:42:47,180 - #10 print
+INFO  11:42:47,180 - #40 (
+INFO  11:42:47,180 - #49 i
+INFO  11:42:47,180 - #41 )
+INFO  11:42:47,180 - #33 ;
+INFO  11:42:47,180 - #37 }
+INFO  11:42:47,180 - #10 print
+INFO  11:42:47,180 - #40 (
+INFO  11:42:47,180 - #49 eol
+INFO  11:42:47,180 - #41 )
+INFO  11:42:47,180 - #33 ;
+INFO  11:42:47,181 - #10 print
+INFO  11:42:47,181 - #40 (
+INFO  11:42:47,181 - #49 inkrement
+INFO  11:42:47,181 - #40 (
+INFO  11:42:47,181 - #49 niz
+INFO  11:42:47,181 - #38 [
+INFO  11:42:47,181 - #50 2
+INFO  11:42:47,181 - #39 ]
+INFO  11:42:47,181 - #34 ,
+INFO  11:42:47,181 - #50 2
+INFO  11:42:47,181 - #41 )
+INFO  11:42:47,181 - #41 )
+INFO  11:42:47,181 - #33 ;
+INFO  11:42:47,181 - #37 }
+INFO  11:42:47,181 - #37 }
+INFO  11:42:47,196 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  MyDeclList(
+    MyDeclList(
+      MyDeclList(
+        MyDeclList(
+          MyNoDeclList(
+          ) [MyNoDeclList]
+          MyConstats(
+            ConstDecl(
+              MyType(
+               int
+              ) [MyType]
+              MyConstantDeclarationsNonRecursive(
+                ConstantDeclaration(
+                 jedan
+                  MyConstNum(
+                   1
+                  ) [MyConstNum]
+                ) [ConstantDeclaration]
+              ) [MyConstantDeclarationsNonRecursive]
+            ) [ConstDecl]
+          ) [MyConstats]
+        ) [MyDeclList]
+        MyVars(
+          MyVarDecl(
+            MyType(
+             int
+            ) [MyType]
+            MyVarDeclarationsNonRecursive(
+              MyVarDeclaration(
+               i
+                NoMyMultipleSquareBrackets(
+                ) [NoMyMultipleSquareBrackets]
+              ) [MyVarDeclaration]
+            ) [MyVarDeclarationsNonRecursive]
+          ) [MyVarDecl]
+        ) [MyVars]
+      ) [MyDeclList]
+      MyVars(
+        MyVarDecl(
+          MyType(
+           bool
+          ) [MyType]
+          MyVarDeclarationsNonRecursive(
+            MyVarDeclaration(
+             ibool
+              NoMyMultipleSquareBrackets(
+              ) [NoMyMultipleSquareBrackets]
+            ) [MyVarDeclaration]
+          ) [MyVarDeclarationsNonRecursive]
+        ) [MyVarDecl]
+      ) [MyVars]
+    ) [MyDeclList]
+    MyVars(
+      MyVarDecl(
+        MyType(
+         int
+        ) [MyType]
+        MyVarDeclarationsNonRecursive(
+          MyVarDeclaration(
+           niz
+            MyMultipleSquareBrackets(
+              MySquareBrackets(
+              ) [MySquareBrackets]
+            ) [MyMultipleSquareBrackets]
+          ) [MyVarDeclaration]
+        ) [MyVarDeclarationsNonRecursive]
+      ) [MyVarDecl]
+    ) [MyVars]
+  ) [MyDeclList]
+  MyMulMethodDeclListOneRecursive(
+    MyMulMethodDeclListOneRecursive(
+      MyMulMethodDeclListOneRecursive(
+        MyMulMethodDeclListOneRecursive(
+          MyMulMethodDeclListOneNonRecursive(
+          ) [MyMulMethodDeclListOneNonRecursive]
+          MyMethodDecl(
+            MyMethodDeclTypesType(
+              MyType(
+               int
+              ) [MyType]
+            ) [MyMethodDeclTypesType]
+           sum
+            MyOptFormParsList(
+              MyFormParsListRecursive(
+                MyFormParsListNonRecursive(
+                  MyFormParsListOneTwo(
+                    MyType(
+                     int
+                    ) [MyType]
+                   z
+                    NoMyMulSqBrackets(
+                    ) [NoMyMulSqBrackets]
+                  ) [MyFormParsListOneTwo]
+                ) [MyFormParsListNonRecursive]
+                MyFormParsListOneTwo(
+                  MyType(
+                   int
+                  ) [MyType]
+                 d
+                  NoMyMulSqBrackets(
+                  ) [NoMyMulSqBrackets]
+                ) [MyFormParsListOneTwo]
+              ) [MyFormParsListRecursive]
+            ) [MyOptFormParsList]
+            NoMyVarDeclList(
+            ) [NoMyVarDeclList]
+            MyStatementList(
+              NoMyStatementList(
+              ) [NoMyStatementList]
+              MyReturnStatement(
+                MyOptExpr(
+                  MyLeftExpr(
+                    AddExpr(
+                      TermExpr(
+                        FactTerm(
+                          MyFactor(
+                            Designator(
+                             z
+                              MyMulIdentOrExprNonRecursive(
+                              ) [MyMulIdentOrExprNonRecursive]
+                            ) [Designator]
+                            NoMyActParsOptOpt(
+                            ) [NoMyActParsOptOpt]
+                          ) [MyFactor]
+                        ) [FactTerm]
+                      ) [TermExpr]
+                      AddopLeftPlus(
+                      ) [AddopLeftPlus]
+                      FactTerm(
+                        MyFactor(
+                          Designator(
+                           d
+                            MyMulIdentOrExprNonRecursive(
+                            ) [MyMulIdentOrExprNonRecursive]
+                          ) [Designator]
+                          NoMyActParsOptOpt(
+                          ) [NoMyActParsOptOpt]
+                        ) [MyFactor]
+                      ) [FactTerm]
+                    ) [AddExpr]
+                  ) [MyLeftExpr]
+                ) [MyOptExpr]
+              ) [MyReturnStatement]
+            ) [MyStatementList]
+          ) [MyMethodDecl]
+        ) [MyMulMethodDeclListOneRecursive]
+        MyMethodDecl(
+          MyMethodDeclTypesType(
+            MyType(
+             int
+            ) [MyType]
+          ) [MyMethodDeclTypesType]
+         inkrement
+          MyOptFormParsList(
+            MyFormParsListRecursive(
+              MyFormParsListNonRecursive(
+                MyFormParsListOneTwo(
+                  MyType(
+                   int
+                  ) [MyType]
+                 a
+                  NoMyMulSqBrackets(
+                  ) [NoMyMulSqBrackets]
+                ) [MyFormParsListOneTwo]
+              ) [MyFormParsListNonRecursive]
+              MyFormParsListOneTwo(
+                MyType(
+                 int
+                ) [MyType]
+               inc
+                NoMyMulSqBrackets(
+                ) [NoMyMulSqBrackets]
+              ) [MyFormParsListOneTwo]
+            ) [MyFormParsListRecursive]
+          ) [MyOptFormParsList]
+          MyVarDeclList(
+            NoMyVarDeclList(
+            ) [NoMyVarDeclList]
+            MyVarDecl(
+              MyType(
+               int
+              ) [MyType]
+              MyVarDeclarationsNonRecursive(
+                MyVarDeclaration(
+                 pom
+                  NoMyMultipleSquareBrackets(
+                  ) [NoMyMultipleSquareBrackets]
+                ) [MyVarDeclaration]
+              ) [MyVarDeclarationsNonRecursive]
+            ) [MyVarDecl]
+          ) [MyVarDeclList]
+          MyStatementList(
+            MyStatementList(
+              NoMyStatementList(
+              ) [NoMyStatementList]
+              MyIfStatement(
+                LBracketIf(
+                ) [LBracketIf]
+                MyConditionNonRecursive(
+                  MyCondTermNonRecursive(
+                    MyCondFactExorRelop(
+                      MyLeftExpr(
+                        TermExpr(
+                          FactTerm(
+                            MyFactor(
+                              Designator(
+                               inc
+                                MyMulIdentOrExprNonRecursive(
+                                ) [MyMulIdentOrExprNonRecursive]
+                              ) [Designator]
+                              NoMyActParsOptOpt(
+                              ) [NoMyActParsOptOpt]
+                            ) [MyFactor]
+                          ) [FactTerm]
+                        ) [TermExpr]
+                      ) [MyLeftExpr]
+                      MyRelopEqual(
+                      ) [MyRelopEqual]
+                      MyLeftExpr(
+                        TermExpr(
+                          FactTerm(
+                            MyFactor(
+                              Designator(
+                               jedan
+                                MyMulIdentOrExprNonRecursive(
+                                ) [MyMulIdentOrExprNonRecursive]
+                              ) [Designator]
+                              NoMyActParsOptOpt(
+                              ) [NoMyActParsOptOpt]
+                            ) [MyFactor]
+                          ) [FactTerm]
+                        ) [TermExpr]
+                      ) [MyLeftExpr]
+                    ) [MyCondFactExorRelop]
+                  ) [MyCondTermNonRecursive]
+                ) [MyConditionNonRecursive]
+                IfStatement(
+                ) [IfStatement]
+                MyDesignatorStatement(
+                  DesignatorStatement(
+                    Designator(
+                     pom
+                      MyMulIdentOrExprNonRecursive(
+                      ) [MyMulIdentOrExprNonRecursive]
+                    ) [Designator]
+                    MyDesigSteteAssignOpExpr(
+                      MyAssignop(
+                      ) [MyAssignop]
+                      MyLeftExpr(
+                        TermExpr(
+                          FactTerm(
+                            MyFactorNum(
+                             1
+                            ) [MyFactorNum]
+                          ) [FactTerm]
+                        ) [TermExpr]
+                      ) [MyLeftExpr]
+                    ) [MyDesigSteteAssignOpExpr]
+                  ) [DesignatorStatement]
+                ) [MyDesignatorStatement]
+                MyElseStatementOpt(
+                  ElseStat(
+                  ) [ElseStat]
+                  MyIfStatement(
+                    LBracketIf(
+                    ) [LBracketIf]
+                    MyConditionNonRecursive(
+                      MyCondTermNonRecursive(
+                        MyCondFactExorRelop(
+                          MyLeftExpr(
+                            TermExpr(
+                              FactTerm(
+                                MyFactor(
+                                  Designator(
+                                   inc
+                                    MyMulIdentOrExprNonRecursive(
+                                    ) [MyMulIdentOrExprNonRecursive]
+                                  ) [Designator]
+                                  NoMyActParsOptOpt(
+                                  ) [NoMyActParsOptOpt]
+                                ) [MyFactor]
+                              ) [FactTerm]
+                            ) [TermExpr]
+                          ) [MyLeftExpr]
+                          MyRelopEqual(
+                          ) [MyRelopEqual]
+                          MyLeftExpr(
+                            TermExpr(
+                              FactTerm(
+                                MyFactorNum(
+                                 2
+                                ) [MyFactorNum]
+                              ) [FactTerm]
+                            ) [TermExpr]
+                          ) [MyLeftExpr]
+                        ) [MyCondFactExorRelop]
+                      ) [MyCondTermNonRecursive]
+                    ) [MyConditionNonRecursive]
+                    IfStatement(
+                    ) [IfStatement]
+                    MyDesignatorStatement(
+                      DesignatorStatement(
+                        Designator(
+                         pom
+                          MyMulIdentOrExprNonRecursive(
+                          ) [MyMulIdentOrExprNonRecursive]
+                        ) [Designator]
+                        MyDesigSteteAssignOpExpr(
+                          MyAssignop(
+                          ) [MyAssignop]
+                          MyLeftExpr(
+                            TermExpr(
+                              FactTerm(
+                                MyFactor(
+                                  Designator(
+                                   a
+                                    MyMulIdentOrExprNonRecursive(
+                                    ) [MyMulIdentOrExprNonRecursive]
+                                  ) [Designator]
+                                  NoMyActParsOptOpt(
+                                  ) [NoMyActParsOptOpt]
+                                ) [MyFactor]
+                              ) [FactTerm]
+                            ) [TermExpr]
+                          ) [MyLeftExpr]
+                        ) [MyDesigSteteAssignOpExpr]
+                      ) [DesignatorStatement]
+                    ) [MyDesignatorStatement]
+                    NoMyElseStatementOpt(
+                    ) [NoMyElseStatementOpt]
+                  ) [MyIfStatement]
+                ) [MyElseStatementOpt]
+              ) [MyIfStatement]
+            ) [MyStatementList]
+            MyReturnStatement(
+              MyOptExpr(
+                MyLeftExpr(
+                  TermExpr(
+                    FactTerm(
+                      MyFactor(
+                        Designator(
+                         sum
+                          MyMulIdentOrExprNonRecursive(
+                          ) [MyMulIdentOrExprNonRecursive]
+                        ) [Designator]
+                        MyActParsOptOpt(
+                          ActParsLBracket(
+                          ) [ActParsLBracket]
+                          MyActParsOpt(
+                            MyActParsRecursive(
+                              MyActParsNonRecursive(
+                                MyLeftExpr(
+                                  TermExpr(
+                                    FactTerm(
+                                      MyFactor(
+                                        Designator(
+                                         a
+                                          MyMulIdentOrExprNonRecursive(
+                                          ) [MyMulIdentOrExprNonRecursive]
+                                        ) [Designator]
+                                        NoMyActParsOptOpt(
+                                        ) [NoMyActParsOptOpt]
+                                      ) [MyFactor]
+                                    ) [FactTerm]
+                                  ) [TermExpr]
+                                ) [MyLeftExpr]
+                              ) [MyActParsNonRecursive]
+                              MyLeftExpr(
+                                TermExpr(
+                                  FactTerm(
+                                    MyFactor(
+                                      Designator(
+                                       pom
+                                        MyMulIdentOrExprNonRecursive(
+                                        ) [MyMulIdentOrExprNonRecursive]
+                                      ) [Designator]
+                                      NoMyActParsOptOpt(
+                                      ) [NoMyActParsOptOpt]
+                                    ) [MyFactor]
+                                  ) [FactTerm]
+                                ) [TermExpr]
+                              ) [MyLeftExpr]
+                            ) [MyActParsRecursive]
+                          ) [MyActParsOpt]
+                          ActParsRBracket(
+                          ) [ActParsRBracket]
+                        ) [MyActParsOptOpt]
+                      ) [MyFactor]
+                    ) [FactTerm]
+                  ) [TermExpr]
+                ) [MyLeftExpr]
+              ) [MyOptExpr]
+            ) [MyReturnStatement]
+          ) [MyStatementList]
+        ) [MyMethodDecl]
+      ) [MyMulMethodDeclListOneRecursive]
+      MyMethodDecl(
+        MyMethodDeclTypesType(
+          MyType(
+           bool
+          ) [MyType]
+        ) [MyMethodDeclTypesType]
+       verify
+        NoMyOptFormParsList(
+        ) [NoMyOptFormParsList]
+        NoMyVarDeclList(
+        ) [NoMyVarDeclList]
+        MyStatementList(
+          MyStatementList(
+            NoMyStatementList(
+            ) [NoMyStatementList]
+            MyPrintStatement(
+              MyLeftExpr(
+                TermExpr(
+                  FactTerm(
+                    MyFactorChar(
+                     v
+                    ) [MyFactorChar]
+                  ) [FactTerm]
+                ) [TermExpr]
+              ) [MyLeftExpr]
+              NoMyOptNumConst(
+              ) [NoMyOptNumConst]
+            ) [MyPrintStatement]
+          ) [MyStatementList]
+          MyReturnStatement(
+            MyOptExpr(
+              MyLeftExpr(
+                TermExpr(
+                  FactTerm(
+                    MyFactorBool(
+                     false
+                    ) [MyFactorBool]
+                  ) [FactTerm]
+                ) [TermExpr]
+              ) [MyLeftExpr]
+            ) [MyOptExpr]
+          ) [MyReturnStatement]
+        ) [MyStatementList]
+      ) [MyMethodDecl]
+    ) [MyMulMethodDeclListOneRecursive]
+    MyMethodDecl(
+      MyMethodDeclTypesTypeVoid(
+      ) [MyMethodDeclTypesTypeVoid]
+     main
+      NoMyOptFormParsList(
+      ) [NoMyOptFormParsList]
+      NoMyVarDeclList(
+      ) [NoMyVarDeclList]
+      MyStatementList(
+        MyStatementList(
+          MyStatementList(
+            MyStatementList(
+              MyStatementList(
+                MyStatementList(
+                  MyStatementList(
+                    MyStatementList(
+                      MyStatementList(
+                        MyStatementList(
+                          MyStatementList(
+                            MyStatementList(
+                              MyStatementList(
+                                MyStatementList(
+                                  MyStatementList(
+                                    MyStatementList(
+                                      MyStatementList(
+                                        MyStatementList(
+                                          MyStatementList(
+                                            MyStatementList(
+                                              MyStatementList(
+                                                MyStatementList(
+                                                  NoMyStatementList(
+                                                  ) [NoMyStatementList]
+                                                  MyIfStatement(
+                                                    LBracketIf(
+                                                    ) [LBracketIf]
+                                                    MyConditionNonRecursive(
+                                                      MyCondTermNonRecursive(
+                                                        MyCondFactExorRelop(
+                                                          MyLeftExpr(
+                                                            TermExpr(
+                                                              FactTerm(
+                                                                MyFactorNum(
+                                                                 1
+                                                                ) [MyFactorNum]
+                                                              ) [FactTerm]
+                                                            ) [TermExpr]
+                                                          ) [MyLeftExpr]
+                                                          MyRelopDifferent(
+                                                          ) [MyRelopDifferent]
+                                                          MyLeftExpr(
+                                                            TermExpr(
+                                                              FactTerm(
+                                                                MyFactorNum(
+                                                                 1
+                                                                ) [MyFactorNum]
+                                                              ) [FactTerm]
+                                                            ) [TermExpr]
+                                                          ) [MyLeftExpr]
+                                                        ) [MyCondFactExorRelop]
+                                                      ) [MyCondTermNonRecursive]
+                                                    ) [MyConditionNonRecursive]
+                                                    IfStatement(
+                                                    ) [IfStatement]
+                                                    MyPrintStatement(
+                                                      MyLeftExpr(
+                                                        MinusTermExpr(
+                                                          FactTerm(
+                                                            MyFactorNum(
+                                                             6
+                                                            ) [MyFactorNum]
+                                                          ) [FactTerm]
+                                                        ) [MinusTermExpr]
+                                                      ) [MyLeftExpr]
+                                                      NoMyOptNumConst(
+                                                      ) [NoMyOptNumConst]
+                                                    ) [MyPrintStatement]
+                                                    MyElseStatementOpt(
+                                                      ElseStat(
+                                                      ) [ElseStat]
+                                                      MyPrintStatement(
+                                                        MyLeftExpr(
+                                                          TermExpr(
+                                                            FactTerm(
+                                                              MyFactorNum(
+                                                               0
+                                                              ) [MyFactorNum]
+                                                            ) [FactTerm]
+                                                          ) [TermExpr]
+                                                        ) [MyLeftExpr]
+                                                        NoMyOptNumConst(
+                                                        ) [NoMyOptNumConst]
+                                                      ) [MyPrintStatement]
+                                                    ) [MyElseStatementOpt]
+                                                  ) [MyIfStatement]
+                                                ) [MyStatementList]
+                                                MyDesignatorStatement(
+                                                  DesignatorStatement(
+                                                    Designator(
+                                                     ibool
+                                                      MyMulIdentOrExprNonRecursive(
+                                                      ) [MyMulIdentOrExprNonRecursive]
+                                                    ) [Designator]
+                                                    MyDesigSteteAssignOpExpr(
+                                                      MyAssignop(
+                                                      ) [MyAssignop]
+                                                      MyLeftExpr(
+                                                        TermExpr(
+                                                          FactTerm(
+                                                            MyFactorBool(
+                                                             false
+                                                            ) [MyFactorBool]
+                                                          ) [FactTerm]
+                                                        ) [TermExpr]
+                                                      ) [MyLeftExpr]
+                                                    ) [MyDesigSteteAssignOpExpr]
+                                                  ) [DesignatorStatement]
+                                                ) [MyDesignatorStatement]
+                                              ) [MyStatementList]
+                                              MyDesignatorStatement(
+                                                DesignatorStatement(
+                                                  Designator(
+                                                   i
+                                                    MyMulIdentOrExprNonRecursive(
+                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                  ) [Designator]
+                                                  MyDesigSteteAssignOpExpr(
+                                                    MyAssignop(
+                                                    ) [MyAssignop]
+                                                    MyLeftExpr(
+                                                      TermExpr(
+                                                        FactTerm(
+                                                          MyFactorNum(
+                                                           0
+                                                          ) [MyFactorNum]
+                                                        ) [FactTerm]
+                                                      ) [TermExpr]
+                                                    ) [MyLeftExpr]
+                                                  ) [MyDesigSteteAssignOpExpr]
+                                                ) [DesignatorStatement]
+                                              ) [MyDesignatorStatement]
+                                            ) [MyStatementList]
+                                            MyForStatement(
+                                              LBracketFor(
+                                              ) [LBracketFor]
+                                              MyOptDesignatorSatement(
+                                                DesignatorStatement(
+                                                  Designator(
+                                                   i
+                                                    MyMulIdentOrExprNonRecursive(
+                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                  ) [Designator]
+                                                  MyDesigSteteAssignOpExpr(
+                                                    MyAssignop(
+                                                    ) [MyAssignop]
+                                                    MyLeftExpr(
+                                                      TermExpr(
+                                                        FactTerm(
+                                                          MyFactorNum(
+                                                           0
+                                                          ) [MyFactorNum]
+                                                        ) [FactTerm]
+                                                      ) [TermExpr]
+                                                    ) [MyLeftExpr]
+                                                  ) [MyDesigSteteAssignOpExpr]
+                                                ) [DesignatorStatement]
+                                              ) [MyOptDesignatorSatement]
+                                              ConditionFor(
+                                              ) [ConditionFor]
+                                              MyOptCondition(
+                                                MyConditionNonRecursive(
+                                                  MyCondTermNonRecursive(
+                                                    MyCondFactExorRelop(
+                                                      MyLeftExpr(
+                                                        TermExpr(
+                                                          FactTerm(
+                                                            MyFactor(
+                                                              Designator(
+                                                               i
+                                                                MyMulIdentOrExprNonRecursive(
+                                                                ) [MyMulIdentOrExprNonRecursive]
+                                                              ) [Designator]
+                                                              NoMyActParsOptOpt(
+                                                              ) [NoMyActParsOptOpt]
+                                                            ) [MyFactor]
+                                                          ) [FactTerm]
+                                                        ) [TermExpr]
+                                                      ) [MyLeftExpr]
+                                                      MyRelopLess(
+                                                      ) [MyRelopLess]
+                                                      MyLeftExpr(
+                                                        TermExpr(
+                                                          FactTerm(
+                                                            MyFactorNum(
+                                                             5
+                                                            ) [MyFactorNum]
+                                                          ) [FactTerm]
+                                                        ) [TermExpr]
+                                                      ) [MyLeftExpr]
+                                                    ) [MyCondFactExorRelop]
+                                                  ) [MyCondTermNonRecursive]
+                                                ) [MyConditionNonRecursive]
+                                              ) [MyOptCondition]
+                                              DesigStateStart(
+                                              ) [DesigStateStart]
+                                              MyOptDesignatorSatement(
+                                                DesignatorStatement(
+                                                  Designator(
+                                                   i
+                                                    MyMulIdentOrExprNonRecursive(
+                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                  ) [Designator]
+                                                  MyDesigStateInc(
+                                                  ) [MyDesigStateInc]
+                                                ) [DesignatorStatement]
+                                              ) [MyOptDesignatorSatement]
+                                              DesigStateEnd(
+                                              ) [DesigStateEnd]
+                                              ForStatement(
+                                              ) [ForStatement]
+                                              MyStatemets(
+                                                MyStatementList(
+                                                  NoMyStatementList(
+                                                  ) [NoMyStatementList]
+                                                  MyIfStatement(
+                                                    LBracketIf(
+                                                    ) [LBracketIf]
+                                                    MyConditionNonRecursive(
+                                                      MyCondTermNonRecursive(
+                                                        MyCondFactExorRelop(
+                                                          MyLeftExpr(
+                                                            TermExpr(
+                                                              FactTerm(
+                                                                MyFactor(
+                                                                  Designator(
+                                                                   i
+                                                                    MyMulIdentOrExprNonRecursive(
+                                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                                  ) [Designator]
+                                                                  NoMyActParsOptOpt(
+                                                                  ) [NoMyActParsOptOpt]
+                                                                ) [MyFactor]
+                                                              ) [FactTerm]
+                                                            ) [TermExpr]
+                                                          ) [MyLeftExpr]
+                                                          MyRelopEqual(
+                                                          ) [MyRelopEqual]
+                                                          MyLeftExpr(
+                                                            TermExpr(
+                                                              FactTerm(
+                                                                MyFactorNum(
+                                                                 2
+                                                                ) [MyFactorNum]
+                                                              ) [FactTerm]
+                                                            ) [TermExpr]
+                                                          ) [MyLeftExpr]
+                                                        ) [MyCondFactExorRelop]
+                                                      ) [MyCondTermNonRecursive]
+                                                    ) [MyConditionNonRecursive]
+                                                    IfStatement(
+                                                    ) [IfStatement]
+                                                    MyDesignatorStatement(
+                                                      DesignatorStatement(
+                                                        Designator(
+                                                         ibool
+                                                          MyMulIdentOrExprNonRecursive(
+                                                          ) [MyMulIdentOrExprNonRecursive]
+                                                        ) [Designator]
+                                                        MyDesigSteteAssignOpExpr(
+                                                          MyAssignop(
+                                                          ) [MyAssignop]
+                                                          MyLeftExpr(
+                                                            TermExpr(
+                                                              FactTerm(
+                                                                MyFactorBool(
+                                                                 true
+                                                                ) [MyFactorBool]
+                                                              ) [FactTerm]
+                                                            ) [TermExpr]
+                                                          ) [MyLeftExpr]
+                                                        ) [MyDesigSteteAssignOpExpr]
+                                                      ) [DesignatorStatement]
+                                                    ) [MyDesignatorStatement]
+                                                    NoMyElseStatementOpt(
+                                                    ) [NoMyElseStatementOpt]
+                                                  ) [MyIfStatement]
+                                                ) [MyStatementList]
+                                              ) [MyStatemets]
+                                            ) [MyForStatement]
+                                          ) [MyStatementList]
+                                          MyIfStatement(
+                                            LBracketIf(
+                                            ) [LBracketIf]
+                                            MyConditionNonRecursive(
+                                              MyCondTermNonRecursive(
+                                                MyCondFactExpr(
+                                                  MyLeftExpr(
+                                                    TermExpr(
+                                                      FactTerm(
+                                                        MyFactor(
+                                                          Designator(
+                                                           ibool
+                                                            MyMulIdentOrExprNonRecursive(
+                                                            ) [MyMulIdentOrExprNonRecursive]
+                                                          ) [Designator]
+                                                          NoMyActParsOptOpt(
+                                                          ) [NoMyActParsOptOpt]
+                                                        ) [MyFactor]
+                                                      ) [FactTerm]
+                                                    ) [TermExpr]
+                                                  ) [MyLeftExpr]
+                                                ) [MyCondFactExpr]
+                                              ) [MyCondTermNonRecursive]
+                                            ) [MyConditionNonRecursive]
+                                            IfStatement(
+                                            ) [IfStatement]
+                                            MyIfStatement(
+                                              LBracketIf(
+                                              ) [LBracketIf]
+                                              MyConditionNonRecursive(
+                                                MyCondTermNonRecursive(
+                                                  MyCondFactExorRelop(
+                                                    MyLeftExpr(
+                                                      TermExpr(
+                                                        FactTerm(
+                                                          MyFactor(
+                                                            Designator(
+                                                             i
+                                                              MyMulIdentOrExprNonRecursive(
+                                                              ) [MyMulIdentOrExprNonRecursive]
+                                                            ) [Designator]
+                                                            NoMyActParsOptOpt(
+                                                            ) [NoMyActParsOptOpt]
+                                                          ) [MyFactor]
+                                                        ) [FactTerm]
+                                                      ) [TermExpr]
+                                                    ) [MyLeftExpr]
+                                                    MyRelopEqual(
+                                                    ) [MyRelopEqual]
+                                                    MyLeftExpr(
+                                                      TermExpr(
+                                                        FactTerm(
+                                                          MyFactorNum(
+                                                           5
+                                                          ) [MyFactorNum]
+                                                        ) [FactTerm]
+                                                      ) [TermExpr]
+                                                    ) [MyLeftExpr]
+                                                  ) [MyCondFactExorRelop]
+                                                ) [MyCondTermNonRecursive]
+                                              ) [MyConditionNonRecursive]
+                                              IfStatement(
+                                              ) [IfStatement]
+                                              MyPrintStatement(
+                                                MyLeftExpr(
+                                                  TermExpr(
+                                                    FactTerm(
+                                                      MyFactorNum(
+                                                       1
+                                                      ) [MyFactorNum]
+                                                    ) [FactTerm]
+                                                  ) [TermExpr]
+                                                ) [MyLeftExpr]
+                                                NoMyOptNumConst(
+                                                ) [NoMyOptNumConst]
+                                              ) [MyPrintStatement]
+                                              MyElseStatementOpt(
+                                                ElseStat(
+                                                ) [ElseStat]
+                                                MyPrintStatement(
+                                                  MyLeftExpr(
+                                                    MinusTermExpr(
+                                                      FactTerm(
+                                                        MyFactorNum(
+                                                         1
+                                                        ) [MyFactorNum]
+                                                      ) [FactTerm]
+                                                    ) [MinusTermExpr]
+                                                  ) [MyLeftExpr]
+                                                  NoMyOptNumConst(
+                                                  ) [NoMyOptNumConst]
+                                                ) [MyPrintStatement]
+                                              ) [MyElseStatementOpt]
+                                            ) [MyIfStatement]
+                                            NoMyElseStatementOpt(
+                                            ) [NoMyElseStatementOpt]
+                                          ) [MyIfStatement]
+                                        ) [MyStatementList]
+                                        MyDesignatorStatement(
+                                          DesignatorStatement(
+                                            Designator(
+                                             niz
+                                              MyMulIdentOrExprNonRecursive(
+                                              ) [MyMulIdentOrExprNonRecursive]
+                                            ) [Designator]
+                                            MyDesigSteteAssignOpExpr(
+                                              MyAssignop(
+                                              ) [MyAssignop]
+                                              MyLeftExpr(
+                                                TermExpr(
+                                                  FactTerm(
+                                                    MyFactorNew(
+                                                      MyType(
+                                                       int
+                                                      ) [MyType]
+                                                      MySquareExprOpt(
+                                                        MyLeftExpr(
+                                                          TermExpr(
+                                                            FactTerm(
+                                                              MyFactorNum(
+                                                               3
+                                                              ) [MyFactorNum]
+                                                            ) [FactTerm]
+                                                          ) [TermExpr]
+                                                        ) [MyLeftExpr]
+                                                      ) [MySquareExprOpt]
+                                                    ) [MyFactorNew]
+                                                  ) [FactTerm]
+                                                ) [TermExpr]
+                                              ) [MyLeftExpr]
+                                            ) [MyDesigSteteAssignOpExpr]
+                                          ) [DesignatorStatement]
+                                        ) [MyDesignatorStatement]
+                                      ) [MyStatementList]
+                                      MyDesignatorStatement(
+                                        DesignatorStatement(
+                                          Designator(
+                                           niz
+                                            MyMMulIdentOrExprRecursive(
+                                              MyMulIdentOrExprNonRecursive(
+                                              ) [MyMulIdentOrExprNonRecursive]
+                                              MyMulIdentOrExprOneExpr(
+                                                Loperation(
+                                                ) [Loperation]
+                                                MyLeftExpr(
+                                                  TermExpr(
+                                                    FactTerm(
+                                                      MyFactorNum(
+                                                       0
+                                                      ) [MyFactorNum]
+                                                    ) [FactTerm]
+                                                  ) [TermExpr]
+                                                ) [MyLeftExpr]
+                                              ) [MyMulIdentOrExprOneExpr]
+                                            ) [MyMMulIdentOrExprRecursive]
+                                          ) [Designator]
+                                          MyDesigSteteAssignOpExpr(
+                                            MyAssignop(
+                                            ) [MyAssignop]
+                                            MyLeftExpr(
+                                              TermExpr(
+                                                FactTerm(
+                                                  MyFactorNum(
+                                                   1
+                                                  ) [MyFactorNum]
+                                                ) [FactTerm]
+                                              ) [TermExpr]
+                                            ) [MyLeftExpr]
+                                          ) [MyDesigSteteAssignOpExpr]
+                                        ) [DesignatorStatement]
+                                      ) [MyDesignatorStatement]
+                                    ) [MyStatementList]
+                                    MyDesignatorStatement(
+                                      DesignatorStatement(
+                                        Designator(
+                                         niz
+                                          MyMMulIdentOrExprRecursive(
+                                            MyMulIdentOrExprNonRecursive(
+                                            ) [MyMulIdentOrExprNonRecursive]
+                                            MyMulIdentOrExprOneExpr(
+                                              Loperation(
+                                              ) [Loperation]
+                                              MyLeftExpr(
+                                                TermExpr(
+                                                  FactTerm(
+                                                    MyFactorNum(
+                                                     1
+                                                    ) [MyFactorNum]
+                                                  ) [FactTerm]
+                                                ) [TermExpr]
+                                              ) [MyLeftExpr]
+                                            ) [MyMulIdentOrExprOneExpr]
+                                          ) [MyMMulIdentOrExprRecursive]
+                                        ) [Designator]
+                                        MyDesigSteteAssignOpExpr(
+                                          MyAssignop(
+                                          ) [MyAssignop]
+                                          MyLeftExpr(
+                                            TermExpr(
+                                              FactTerm(
+                                                MyFactorNum(
+                                                 2
+                                                ) [MyFactorNum]
+                                              ) [FactTerm]
+                                            ) [TermExpr]
+                                          ) [MyLeftExpr]
+                                        ) [MyDesigSteteAssignOpExpr]
+                                      ) [DesignatorStatement]
+                                    ) [MyDesignatorStatement]
+                                  ) [MyStatementList]
+                                  MyDesignatorStatement(
+                                    DesignatorStatement(
+                                      Designator(
+                                       niz
+                                        MyMMulIdentOrExprRecursive(
+                                          MyMulIdentOrExprNonRecursive(
+                                          ) [MyMulIdentOrExprNonRecursive]
+                                          MyMulIdentOrExprOneExpr(
+                                            Loperation(
+                                            ) [Loperation]
+                                            MyLeftExpr(
+                                              TermExpr(
+                                                FactTerm(
+                                                  MyFactorNum(
+                                                   2
+                                                  ) [MyFactorNum]
+                                                ) [FactTerm]
+                                              ) [TermExpr]
+                                            ) [MyLeftExpr]
+                                          ) [MyMulIdentOrExprOneExpr]
+                                        ) [MyMMulIdentOrExprRecursive]
+                                      ) [Designator]
+                                      MyDesigSteteAssignOpExpr(
+                                        MyAssignop(
+                                        ) [MyAssignop]
+                                        MyLeftExpr(
+                                          AddExpr(
+                                            TermExpr(
+                                              FactTerm(
+                                                MyFactor(
+                                                  Designator(
+                                                   sum
+                                                    MyMulIdentOrExprNonRecursive(
+                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                  ) [Designator]
+                                                  MyActParsOptOpt(
+                                                    ActParsLBracket(
+                                                    ) [ActParsLBracket]
+                                                    MyActParsOpt(
+                                                      MyActParsRecursive(
+                                                        MyActParsNonRecursive(
+                                                          MyLeftExpr(
+                                                            TermExpr(
+                                                              FactTerm(
+                                                                MyFactor(
+                                                                  Designator(
+                                                                   niz
+                                                                    MyMMulIdentOrExprRecursive(
+                                                                      MyMulIdentOrExprNonRecursive(
+                                                                      ) [MyMulIdentOrExprNonRecursive]
+                                                                      MyMulIdentOrExprOneExpr(
+                                                                        Loperation(
+                                                                        ) [Loperation]
+                                                                        MyLeftExpr(
+                                                                          TermExpr(
+                                                                            FactTerm(
+                                                                              MyFactorNum(
+                                                                               1
+                                                                              ) [MyFactorNum]
+                                                                            ) [FactTerm]
+                                                                          ) [TermExpr]
+                                                                        ) [MyLeftExpr]
+                                                                      ) [MyMulIdentOrExprOneExpr]
+                                                                    ) [MyMMulIdentOrExprRecursive]
+                                                                  ) [Designator]
+                                                                  NoMyActParsOptOpt(
+                                                                  ) [NoMyActParsOptOpt]
+                                                                ) [MyFactor]
+                                                              ) [FactTerm]
+                                                            ) [TermExpr]
+                                                          ) [MyLeftExpr]
+                                                        ) [MyActParsNonRecursive]
+                                                        MyLeftExpr(
+                                                          TermExpr(
+                                                            FactTerm(
+                                                              MyFactor(
+                                                                Designator(
+                                                                 niz
+                                                                  MyMMulIdentOrExprRecursive(
+                                                                    MyMulIdentOrExprNonRecursive(
+                                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                                    MyMulIdentOrExprOneExpr(
+                                                                      Loperation(
+                                                                      ) [Loperation]
+                                                                      MyLeftExpr(
+                                                                        TermExpr(
+                                                                          FactTerm(
+                                                                            MyFactorNum(
+                                                                             0
+                                                                            ) [MyFactorNum]
+                                                                          ) [FactTerm]
+                                                                        ) [TermExpr]
+                                                                      ) [MyLeftExpr]
+                                                                    ) [MyMulIdentOrExprOneExpr]
+                                                                  ) [MyMMulIdentOrExprRecursive]
+                                                                ) [Designator]
+                                                                NoMyActParsOptOpt(
+                                                                ) [NoMyActParsOptOpt]
+                                                              ) [MyFactor]
+                                                            ) [FactTerm]
+                                                          ) [TermExpr]
+                                                        ) [MyLeftExpr]
+                                                      ) [MyActParsRecursive]
+                                                    ) [MyActParsOpt]
+                                                    ActParsRBracket(
+                                                    ) [ActParsRBracket]
+                                                  ) [MyActParsOptOpt]
+                                                ) [MyFactor]
+                                              ) [FactTerm]
+                                            ) [TermExpr]
+                                            AddopLeftPlus(
+                                            ) [AddopLeftPlus]
+                                            FactTerm(
+                                              MyFactorNum(
+                                               1
+                                              ) [MyFactorNum]
+                                            ) [FactTerm]
+                                          ) [AddExpr]
+                                        ) [MyLeftExpr]
+                                      ) [MyDesigSteteAssignOpExpr]
+                                    ) [DesignatorStatement]
+                                  ) [MyDesignatorStatement]
+                                ) [MyStatementList]
+                                MyIfStatement(
+                                  LBracketIf(
+                                  ) [LBracketIf]
+                                  MyConditionRecursive(
+                                    MyConditionNonRecursive(
+                                      MyCondTermNonRecursive(
+                                        MyCondFactExorRelop(
+                                          MyLeftExpr(
+                                            TermExpr(
+                                              FactTerm(
+                                                MyFactor(
+                                                  Designator(
+                                                   niz
+                                                    MyMMulIdentOrExprRecursive(
+                                                      MyMulIdentOrExprNonRecursive(
+                                                      ) [MyMulIdentOrExprNonRecursive]
+                                                      MyMulIdentOrExprOneExpr(
+                                                        Loperation(
+                                                        ) [Loperation]
+                                                        MyLeftExpr(
+                                                          TermExpr(
+                                                            FactTerm(
+                                                              MyFactorNum(
+                                                               2
+                                                              ) [MyFactorNum]
+                                                            ) [FactTerm]
+                                                          ) [TermExpr]
+                                                        ) [MyLeftExpr]
+                                                      ) [MyMulIdentOrExprOneExpr]
+                                                    ) [MyMMulIdentOrExprRecursive]
+                                                  ) [Designator]
+                                                  NoMyActParsOptOpt(
+                                                  ) [NoMyActParsOptOpt]
+                                                ) [MyFactor]
+                                              ) [FactTerm]
+                                            ) [TermExpr]
+                                          ) [MyLeftExpr]
+                                          MyRelopEqual(
+                                          ) [MyRelopEqual]
+                                          MyLeftExpr(
+                                            TermExpr(
+                                              FactTerm(
+                                                MyFactorNum(
+                                                 4
+                                                ) [MyFactorNum]
+                                              ) [FactTerm]
+                                            ) [TermExpr]
+                                          ) [MyLeftExpr]
+                                        ) [MyCondFactExorRelop]
+                                      ) [MyCondTermNonRecursive]
+                                    ) [MyConditionNonRecursive]
+                                    MyCondTermNonRecursive(
+                                      MyCondFactExpr(
+                                        MyLeftExpr(
+                                          TermExpr(
+                                            FactTerm(
+                                              MyFactor(
+                                                Designator(
+                                                 verify
+                                                  MyMulIdentOrExprNonRecursive(
+                                                  ) [MyMulIdentOrExprNonRecursive]
+                                                ) [Designator]
+                                                MyActParsOptOpt(
+                                                  ActParsLBracket(
+                                                  ) [ActParsLBracket]
+                                                  NoMyActParsOpt(
+                                                  ) [NoMyActParsOpt]
+                                                  ActParsRBracket(
+                                                  ) [ActParsRBracket]
+                                                ) [MyActParsOptOpt]
+                                              ) [MyFactor]
+                                            ) [FactTerm]
+                                          ) [TermExpr]
+                                        ) [MyLeftExpr]
+                                      ) [MyCondFactExpr]
+                                    ) [MyCondTermNonRecursive]
+                                  ) [MyConditionRecursive]
+                                  IfStatement(
+                                  ) [IfStatement]
+                                  MyPrintStatement(
+                                    MyLeftExpr(
+                                      TermExpr(
+                                        FactTerm(
+                                          MyFactor(
+                                            Designator(
+                                             ord
+                                              MyMulIdentOrExprNonRecursive(
+                                              ) [MyMulIdentOrExprNonRecursive]
+                                            ) [Designator]
+                                            MyActParsOptOpt(
+                                              ActParsLBracket(
+                                              ) [ActParsLBracket]
+                                              MyActParsOpt(
+                                                MyActParsNonRecursive(
+                                                  MyLeftExpr(
+                                                    TermExpr(
+                                                      FactTerm(
+                                                        MyFactorChar(
+                                                         A
+                                                        ) [MyFactorChar]
+                                                      ) [FactTerm]
+                                                    ) [TermExpr]
+                                                  ) [MyLeftExpr]
+                                                ) [MyActParsNonRecursive]
+                                              ) [MyActParsOpt]
+                                              ActParsRBracket(
+                                              ) [ActParsRBracket]
+                                            ) [MyActParsOptOpt]
+                                          ) [MyFactor]
+                                        ) [FactTerm]
+                                      ) [TermExpr]
+                                    ) [MyLeftExpr]
+                                    NoMyOptNumConst(
+                                    ) [NoMyOptNumConst]
+                                  ) [MyPrintStatement]
+                                  MyElseStatementOpt(
+                                    ElseStat(
+                                    ) [ElseStat]
+                                    MyPrintStatement(
+                                      MyLeftExpr(
+                                        TermExpr(
+                                          FactTerm(
+                                            MyFactor(
+                                              Designator(
+                                               ord
+                                                MyMulIdentOrExprNonRecursive(
+                                                ) [MyMulIdentOrExprNonRecursive]
+                                              ) [Designator]
+                                              MyActParsOptOpt(
+                                                ActParsLBracket(
+                                                ) [ActParsLBracket]
+                                                MyActParsOpt(
+                                                  MyActParsNonRecursive(
+                                                    MyLeftExpr(
+                                                      TermExpr(
+                                                        FactTerm(
+                                                          MyFactorChar(
+                                                           a
+                                                          ) [MyFactorChar]
+                                                        ) [FactTerm]
+                                                      ) [TermExpr]
+                                                    ) [MyLeftExpr]
+                                                  ) [MyActParsNonRecursive]
+                                                ) [MyActParsOpt]
+                                                ActParsRBracket(
+                                                ) [ActParsRBracket]
+                                              ) [MyActParsOptOpt]
+                                            ) [MyFactor]
+                                          ) [FactTerm]
+                                        ) [TermExpr]
+                                      ) [MyLeftExpr]
+                                      NoMyOptNumConst(
+                                      ) [NoMyOptNumConst]
+                                    ) [MyPrintStatement]
+                                  ) [MyElseStatementOpt]
+                                ) [MyIfStatement]
+                              ) [MyStatementList]
+                              MyPrintStatement(
+                                MyLeftExpr(
+                                  TermExpr(
+                                    FactTerm(
+                                      MyFactor(
+                                        Designator(
+                                         eol
+                                          MyMulIdentOrExprNonRecursive(
+                                          ) [MyMulIdentOrExprNonRecursive]
+                                        ) [Designator]
+                                        NoMyActParsOptOpt(
+                                        ) [NoMyActParsOptOpt]
+                                      ) [MyFactor]
+                                    ) [FactTerm]
+                                  ) [TermExpr]
+                                ) [MyLeftExpr]
+                                NoMyOptNumConst(
+                                ) [NoMyOptNumConst]
+                              ) [MyPrintStatement]
+                            ) [MyStatementList]
+                            MyDesignatorStatement(
+                              DesignatorStatement(
+                                Designator(
+                                 i
+                                  MyMulIdentOrExprNonRecursive(
+                                  ) [MyMulIdentOrExprNonRecursive]
+                                ) [Designator]
+                                MyDesigSteteAssignOpExpr(
+                                  MyAssignop(
+                                  ) [MyAssignop]
+                                  MyLeftExpr(
+                                    TermExpr(
+                                      FactTerm(
+                                        MyFactorNum(
+                                         0
+                                        ) [MyFactorNum]
+                                      ) [FactTerm]
+                                    ) [TermExpr]
+                                  ) [MyLeftExpr]
+                                ) [MyDesigSteteAssignOpExpr]
+                              ) [DesignatorStatement]
+                            ) [MyDesignatorStatement]
+                          ) [MyStatementList]
+                          MyForStatement(
+                            LBracketFor(
+                            ) [LBracketFor]
+                            NoMyOptDesignatorSatement(
+                            ) [NoMyOptDesignatorSatement]
+                            ConditionFor(
+                            ) [ConditionFor]
+                            MyOptCondition(
+                              MyConditionNonRecursive(
+                                MyCondTermNonRecursive(
+                                  MyCondFactExorRelop(
+                                    MyLeftExpr(
+                                      TermExpr(
+                                        FactTerm(
+                                          MyFactor(
+                                            Designator(
+                                             i
+                                              MyMulIdentOrExprNonRecursive(
+                                              ) [MyMulIdentOrExprNonRecursive]
+                                            ) [Designator]
+                                            NoMyActParsOptOpt(
+                                            ) [NoMyActParsOptOpt]
+                                          ) [MyFactor]
+                                        ) [FactTerm]
+                                      ) [TermExpr]
+                                    ) [MyLeftExpr]
+                                    MyRelopLess(
+                                    ) [MyRelopLess]
+                                    MyLeftExpr(
+                                      TermExpr(
+                                        FactTerm(
+                                          MyFactorNum(
+                                           10
+                                          ) [MyFactorNum]
+                                        ) [FactTerm]
+                                      ) [TermExpr]
+                                    ) [MyLeftExpr]
+                                  ) [MyCondFactExorRelop]
+                                ) [MyCondTermNonRecursive]
+                              ) [MyConditionNonRecursive]
+                            ) [MyOptCondition]
+                            DesigStateStart(
+                            ) [DesigStateStart]
+                            NoMyOptDesignatorSatement(
+                            ) [NoMyOptDesignatorSatement]
+                            DesigStateEnd(
+                            ) [DesigStateEnd]
+                            ForStatement(
+                            ) [ForStatement]
+                            MyStatemets(
+                              MyStatementList(
+                                MyStatementList(
+                                  MyStatementList(
+                                    NoMyStatementList(
+                                    ) [NoMyStatementList]
+                                    MyIfStatement(
+                                      LBracketIf(
+                                      ) [LBracketIf]
+                                      MyConditionNonRecursive(
+                                        MyCondTermNonRecursive(
+                                          MyCondFactExorRelop(
+                                            MyLeftExpr(
+                                              TermExpr(
+                                                FactTerm(
+                                                  MyFactor(
+                                                    Designator(
+                                                     i
+                                                      MyMulIdentOrExprNonRecursive(
+                                                      ) [MyMulIdentOrExprNonRecursive]
+                                                    ) [Designator]
+                                                    NoMyActParsOptOpt(
+                                                    ) [NoMyActParsOptOpt]
+                                                  ) [MyFactor]
+                                                ) [FactTerm]
+                                              ) [TermExpr]
+                                            ) [MyLeftExpr]
+                                            MyRelopEqual(
+                                            ) [MyRelopEqual]
+                                            MyLeftExpr(
+                                              TermExpr(
+                                                FactTerm(
+                                                  MyFactorNum(
+                                                   3
+                                                  ) [MyFactorNum]
+                                                ) [FactTerm]
+                                              ) [TermExpr]
+                                            ) [MyLeftExpr]
+                                          ) [MyCondFactExorRelop]
+                                        ) [MyCondTermNonRecursive]
+                                      ) [MyConditionNonRecursive]
+                                      IfStatement(
+                                      ) [IfStatement]
+                                      MyStatemets(
+                                        MyStatementList(
+                                          MyStatementList(
+                                            NoMyStatementList(
+                                            ) [NoMyStatementList]
+                                            MyDesignatorStatement(
+                                              DesignatorStatement(
+                                                Designator(
+                                                 i
+                                                  MyMulIdentOrExprNonRecursive(
+                                                  ) [MyMulIdentOrExprNonRecursive]
+                                                ) [Designator]
+                                                MyDesigStateInc(
+                                                ) [MyDesigStateInc]
+                                              ) [DesignatorStatement]
+                                            ) [MyDesignatorStatement]
+                                          ) [MyStatementList]
+                                          MyContinueStatement(
+                                          ) [MyContinueStatement]
+                                        ) [MyStatementList]
+                                      ) [MyStatemets]
+                                      NoMyElseStatementOpt(
+                                      ) [NoMyElseStatementOpt]
+                                    ) [MyIfStatement]
+                                  ) [MyStatementList]
+                                  MyIfStatement(
+                                    LBracketIf(
+                                    ) [LBracketIf]
+                                    MyConditionNonRecursive(
+                                      MyCondTermNonRecursive(
+                                        MyCondFactExorRelop(
+                                          MyLeftExpr(
+                                            TermExpr(
+                                              FactTerm(
+                                                MyFactor(
+                                                  Designator(
+                                                   i
+                                                    MyMulIdentOrExprNonRecursive(
+                                                    ) [MyMulIdentOrExprNonRecursive]
+                                                  ) [Designator]
+                                                  NoMyActParsOptOpt(
+                                                  ) [NoMyActParsOptOpt]
+                                                ) [MyFactor]
+                                              ) [FactTerm]
+                                            ) [TermExpr]
+                                          ) [MyLeftExpr]
+                                          MyRelopEqual(
+                                          ) [MyRelopEqual]
+                                          MyLeftExpr(
+                                            TermExpr(
+                                              FactTerm(
+                                                MyFactorNum(
+                                                 4
+                                                ) [MyFactorNum]
+                                              ) [FactTerm]
+                                            ) [TermExpr]
+                                          ) [MyLeftExpr]
+                                        ) [MyCondFactExorRelop]
+                                      ) [MyCondTermNonRecursive]
+                                    ) [MyConditionNonRecursive]
+                                    IfStatement(
+                                    ) [IfStatement]
+                                    MyBreakStatement(
+                                    ) [MyBreakStatement]
+                                    NoMyElseStatementOpt(
+                                    ) [NoMyElseStatementOpt]
+                                  ) [MyIfStatement]
+                                ) [MyStatementList]
+                                MyDesignatorStatement(
+                                  DesignatorStatement(
+                                    Designator(
+                                     i
+                                      MyMulIdentOrExprNonRecursive(
+                                      ) [MyMulIdentOrExprNonRecursive]
+                                    ) [Designator]
+                                    MyDesigSteteAssignOpExpr(
+                                      MyAssignop(
+                                      ) [MyAssignop]
+                                      MyLeftExpr(
+                                        TermExpr(
+                                          FactTerm(
+                                            MyFactor(
+                                              Designator(
+                                               inkrement
+                                                MyMulIdentOrExprNonRecursive(
+                                                ) [MyMulIdentOrExprNonRecursive]
+                                              ) [Designator]
+                                              MyActParsOptOpt(
+                                                ActParsLBracket(
+                                                ) [ActParsLBracket]
+                                                MyActParsOpt(
+                                                  MyActParsRecursive(
+                                                    MyActParsNonRecursive(
+                                                      MyLeftExpr(
+                                                        TermExpr(
+                                                          FactTerm(
+                                                            MyFactor(
+                                                              Designator(
+                                                               i
+                                                                MyMulIdentOrExprNonRecursive(
+                                                                ) [MyMulIdentOrExprNonRecursive]
+                                                              ) [Designator]
+                                                              NoMyActParsOptOpt(
+                                                              ) [NoMyActParsOptOpt]
+                                                            ) [MyFactor]
+                                                          ) [FactTerm]
+                                                        ) [TermExpr]
+                                                      ) [MyLeftExpr]
+                                                    ) [MyActParsNonRecursive]
+                                                    MyLeftExpr(
+                                                      TermExpr(
+                                                        FactTerm(
+                                                          MyFactorNum(
+                                                           1
+                                                          ) [MyFactorNum]
+                                                        ) [FactTerm]
+                                                      ) [TermExpr]
+                                                    ) [MyLeftExpr]
+                                                  ) [MyActParsRecursive]
+                                                ) [MyActParsOpt]
+                                                ActParsRBracket(
+                                                ) [ActParsRBracket]
+                                              ) [MyActParsOptOpt]
+                                            ) [MyFactor]
+                                          ) [FactTerm]
+                                        ) [TermExpr]
+                                      ) [MyLeftExpr]
+                                    ) [MyDesigSteteAssignOpExpr]
+                                  ) [DesignatorStatement]
+                                ) [MyDesignatorStatement]
+                              ) [MyStatementList]
+                            ) [MyStatemets]
+                          ) [MyForStatement]
+                        ) [MyStatementList]
+                        MyIfStatement(
+                          LBracketIf(
+                          ) [LBracketIf]
+                          MyConditionNonRecursive(
+                            MyCondTermRecursive(
+                              MyCondTermNonRecursive(
+                                MyCondFactExorRelop(
+                                  MyLeftExpr(
+                                    TermExpr(
+                                      FactTerm(
+                                        MyFactor(
+                                          Designator(
+                                           i
+                                            MyMulIdentOrExprNonRecursive(
+                                            ) [MyMulIdentOrExprNonRecursive]
+                                          ) [Designator]
+                                          NoMyActParsOptOpt(
+                                          ) [NoMyActParsOptOpt]
+                                        ) [MyFactor]
+                                      ) [FactTerm]
+                                    ) [TermExpr]
+                                  ) [MyLeftExpr]
+                                  MyRelopEqual(
+                                  ) [MyRelopEqual]
+                                  MyLeftExpr(
+                                    TermExpr(
+                                      FactTerm(
+                                        MyFactorNum(
+                                         3
+                                        ) [MyFactorNum]
+                                      ) [FactTerm]
+                                    ) [TermExpr]
+                                  ) [MyLeftExpr]
+                                ) [MyCondFactExorRelop]
+                              ) [MyCondTermNonRecursive]
+                              MyCondFactExpr(
+                                MyLeftExpr(
+                                  TermExpr(
+                                    FactTerm(
+                                      MyFactor(
+                                        Designator(
+                                         verify
+                                          MyMulIdentOrExprNonRecursive(
+                                          ) [MyMulIdentOrExprNonRecursive]
+                                        ) [Designator]
+                                        MyActParsOptOpt(
+                                          ActParsLBracket(
+                                          ) [ActParsLBracket]
+                                          NoMyActParsOpt(
+                                          ) [NoMyActParsOpt]
+                                          ActParsRBracket(
+                                          ) [ActParsRBracket]
+                                        ) [MyActParsOptOpt]
+                                      ) [MyFactor]
+                                    ) [FactTerm]
+                                  ) [TermExpr]
+                                ) [MyLeftExpr]
+                              ) [MyCondFactExpr]
+                            ) [MyCondTermRecursive]
+                          ) [MyConditionNonRecursive]
+                          IfStatement(
+                          ) [IfStatement]
+                          MyPrintStatement(
+                            MyLeftExpr(
+                              TermExpr(
+                                FactTerm(
+                                  MyFactorNum(
+                                   4
+                                  ) [MyFactorNum]
+                                ) [FactTerm]
+                              ) [TermExpr]
+                            ) [MyLeftExpr]
+                            NoMyOptNumConst(
+                            ) [NoMyOptNumConst]
+                          ) [MyPrintStatement]
+                          MyElseStatementOpt(
+                            ElseStat(
+                            ) [ElseStat]
+                            MyPrintStatement(
+                              MyLeftExpr(
+                                MinusTermExpr(
+                                  FactTerm(
+                                    MyFactorNum(
+                                     4
+                                    ) [MyFactorNum]
+                                  ) [FactTerm]
+                                ) [MinusTermExpr]
+                              ) [MyLeftExpr]
+                              NoMyOptNumConst(
+                              ) [NoMyOptNumConst]
+                            ) [MyPrintStatement]
+                          ) [MyElseStatementOpt]
+                        ) [MyIfStatement]
+                      ) [MyStatementList]
+                      MyReadStatement(
+                        Designator(
+                         niz
+                          MyMMulIdentOrExprRecursive(
+                            MyMulIdentOrExprNonRecursive(
+                            ) [MyMulIdentOrExprNonRecursive]
+                            MyMulIdentOrExprOneExpr(
+                              Loperation(
+                              ) [Loperation]
+                              MyLeftExpr(
+                                TermExpr(
+                                  FactTerm(
+                                    MyFactorNum(
+                                     0
+                                    ) [MyFactorNum]
+                                  ) [FactTerm]
+                                ) [TermExpr]
+                              ) [MyLeftExpr]
+                            ) [MyMulIdentOrExprOneExpr]
+                          ) [MyMMulIdentOrExprRecursive]
+                        ) [Designator]
+                      ) [MyReadStatement]
+                    ) [MyStatementList]
+                    MyReadStatement(
+                      Designator(
+                       niz
+                        MyMMulIdentOrExprRecursive(
+                          MyMulIdentOrExprNonRecursive(
+                          ) [MyMulIdentOrExprNonRecursive]
+                          MyMulIdentOrExprOneExpr(
+                            Loperation(
+                            ) [Loperation]
+                            MyLeftExpr(
+                              TermExpr(
+                                FactTerm(
+                                  MyFactorNum(
+                                   1
+                                  ) [MyFactorNum]
+                                ) [FactTerm]
+                              ) [TermExpr]
+                            ) [MyLeftExpr]
+                          ) [MyMulIdentOrExprOneExpr]
+                        ) [MyMMulIdentOrExprRecursive]
+                      ) [Designator]
+                    ) [MyReadStatement]
+                  ) [MyStatementList]
+                  MyReadStatement(
+                    Designator(
+                     niz
+                      MyMMulIdentOrExprRecursive(
+                        MyMulIdentOrExprNonRecursive(
+                        ) [MyMulIdentOrExprNonRecursive]
+                        MyMulIdentOrExprOneExpr(
+                          Loperation(
+                          ) [Loperation]
+                          MyLeftExpr(
+                            TermExpr(
+                              FactTerm(
+                                MyFactorNum(
+                                 2
+                                ) [MyFactorNum]
+                              ) [FactTerm]
+                            ) [TermExpr]
+                          ) [MyLeftExpr]
+                        ) [MyMulIdentOrExprOneExpr]
+                      ) [MyMMulIdentOrExprRecursive]
+                    ) [Designator]
+                  ) [MyReadStatement]
+                ) [MyStatementList]
+                MyPrintStatement(
+                  MyLeftExpr(
+                    TermExpr(
+                      FactTerm(
+                        MyFactor(
+                          Designator(
+                           eol
+                            MyMulIdentOrExprNonRecursive(
+                            ) [MyMulIdentOrExprNonRecursive]
+                          ) [Designator]
+                          NoMyActParsOptOpt(
+                          ) [NoMyActParsOptOpt]
+                        ) [MyFactor]
+                      ) [FactTerm]
+                    ) [TermExpr]
+                  ) [MyLeftExpr]
+                  NoMyOptNumConst(
+                  ) [NoMyOptNumConst]
+                ) [MyPrintStatement]
+              ) [MyStatementList]
+              MyPrintStatement(
+                MyLeftExpr(
+                  TermExpr(
+                    FactTerm(
+                      MyFactor(
+                        Designator(
+                         sum
+                          MyMulIdentOrExprNonRecursive(
+                          ) [MyMulIdentOrExprNonRecursive]
+                        ) [Designator]
+                        MyActParsOptOpt(
+                          ActParsLBracket(
+                          ) [ActParsLBracket]
+                          MyActParsOpt(
+                            MyActParsRecursive(
+                              MyActParsNonRecursive(
+                                MyLeftExpr(
+                                  TermExpr(
+                                    FactTerm(
+                                      MyFactor(
+                                        Designator(
+                                         sum
+                                          MyMulIdentOrExprNonRecursive(
+                                          ) [MyMulIdentOrExprNonRecursive]
+                                        ) [Designator]
+                                        MyActParsOptOpt(
+                                          ActParsLBracket(
+                                          ) [ActParsLBracket]
+                                          MyActParsOpt(
+                                            MyActParsRecursive(
+                                              MyActParsNonRecursive(
+                                                MyLeftExpr(
+                                                  TermExpr(
+                                                    FactTerm(
+                                                      MyFactor(
+                                                        Designator(
+                                                         niz
+                                                          MyMMulIdentOrExprRecursive(
+                                                            MyMulIdentOrExprNonRecursive(
+                                                            ) [MyMulIdentOrExprNonRecursive]
+                                                            MyMulIdentOrExprOneExpr(
+                                                              Loperation(
+                                                              ) [Loperation]
+                                                              MyLeftExpr(
+                                                                TermExpr(
+                                                                  FactTerm(
+                                                                    MyFactorNum(
+                                                                     0
+                                                                    ) [MyFactorNum]
+                                                                  ) [FactTerm]
+                                                                ) [TermExpr]
+                                                              ) [MyLeftExpr]
+                                                            ) [MyMulIdentOrExprOneExpr]
+                                                          ) [MyMMulIdentOrExprRecursive]
+                                                        ) [Designator]
+                                                        NoMyActParsOptOpt(
+                                                        ) [NoMyActParsOptOpt]
+                                                      ) [MyFactor]
+                                                    ) [FactTerm]
+                                                  ) [TermExpr]
+                                                ) [MyLeftExpr]
+                                              ) [MyActParsNonRecursive]
+                                              MyLeftExpr(
+                                                TermExpr(
+                                                  FactTerm(
+                                                    MyFactor(
+                                                      Designator(
+                                                       niz
+                                                        MyMMulIdentOrExprRecursive(
+                                                          MyMulIdentOrExprNonRecursive(
+                                                          ) [MyMulIdentOrExprNonRecursive]
+                                                          MyMulIdentOrExprOneExpr(
+                                                            Loperation(
+                                                            ) [Loperation]
+                                                            MyLeftExpr(
+                                                              TermExpr(
+                                                                FactTerm(
+                                                                  MyFactorNum(
+                                                                   1
+                                                                  ) [MyFactorNum]
+                                                                ) [FactTerm]
+                                                              ) [TermExpr]
+                                                            ) [MyLeftExpr]
+                                                          ) [MyMulIdentOrExprOneExpr]
+                                                        ) [MyMMulIdentOrExprRecursive]
+                                                      ) [Designator]
+                                                      NoMyActParsOptOpt(
+                                                      ) [NoMyActParsOptOpt]
+                                                    ) [MyFactor]
+                                                  ) [FactTerm]
+                                                ) [TermExpr]
+                                              ) [MyLeftExpr]
+                                            ) [MyActParsRecursive]
+                                          ) [MyActParsOpt]
+                                          ActParsRBracket(
+                                          ) [ActParsRBracket]
+                                        ) [MyActParsOptOpt]
+                                      ) [MyFactor]
+                                    ) [FactTerm]
+                                  ) [TermExpr]
+                                ) [MyLeftExpr]
+                              ) [MyActParsNonRecursive]
+                              MyLeftExpr(
+                                TermExpr(
+                                  FactTerm(
+                                    MyFactor(
+                                      Designator(
+                                       niz
+                                        MyMMulIdentOrExprRecursive(
+                                          MyMulIdentOrExprNonRecursive(
+                                          ) [MyMulIdentOrExprNonRecursive]
+                                          MyMulIdentOrExprOneExpr(
+                                            Loperation(
+                                            ) [Loperation]
+                                            MyLeftExpr(
+                                              TermExpr(
+                                                FactTerm(
+                                                  MyFactorNum(
+                                                   2
+                                                  ) [MyFactorNum]
+                                                ) [FactTerm]
+                                              ) [TermExpr]
+                                            ) [MyLeftExpr]
+                                          ) [MyMulIdentOrExprOneExpr]
+                                        ) [MyMMulIdentOrExprRecursive]
+                                      ) [Designator]
+                                      NoMyActParsOptOpt(
+                                      ) [NoMyActParsOptOpt]
+                                    ) [MyFactor]
+                                  ) [FactTerm]
+                                ) [TermExpr]
+                              ) [MyLeftExpr]
+                            ) [MyActParsRecursive]
+                          ) [MyActParsOpt]
+                          ActParsRBracket(
+                          ) [ActParsRBracket]
+                        ) [MyActParsOptOpt]
+                      ) [MyFactor]
+                    ) [FactTerm]
+                  ) [TermExpr]
+                ) [MyLeftExpr]
+                NoMyOptNumConst(
+                ) [NoMyOptNumConst]
+              ) [MyPrintStatement]
+            ) [MyStatementList]
+            MyForEachStatement(
+              ForeachIdent(
+               i
+              ) [ForeachIdent]
+              DesigStart(
+              ) [DesigStart]
+              Designator(
+               niz
+                MyMulIdentOrExprNonRecursive(
+                ) [MyMulIdentOrExprNonRecursive]
+              ) [Designator]
+              DesigEnd(
+              ) [DesigEnd]
+              MyStatemets(
+                MyStatementList(
+                  NoMyStatementList(
+                  ) [NoMyStatementList]
+                  MyPrintStatement(
+                    MyLeftExpr(
+                      TermExpr(
+                        FactTerm(
+                          MyFactor(
+                            Designator(
+                             i
+                              MyMulIdentOrExprNonRecursive(
+                              ) [MyMulIdentOrExprNonRecursive]
+                            ) [Designator]
+                            NoMyActParsOptOpt(
+                            ) [NoMyActParsOptOpt]
+                          ) [MyFactor]
+                        ) [FactTerm]
+                      ) [TermExpr]
+                    ) [MyLeftExpr]
+                    NoMyOptNumConst(
+                    ) [NoMyOptNumConst]
+                  ) [MyPrintStatement]
+                ) [MyStatementList]
+              ) [MyStatemets]
+            ) [MyForEachStatement]
+          ) [MyStatementList]
+          MyPrintStatement(
+            MyLeftExpr(
+              TermExpr(
+                FactTerm(
+                  MyFactor(
+                    Designator(
+                     eol
+                      MyMulIdentOrExprNonRecursive(
+                      ) [MyMulIdentOrExprNonRecursive]
+                    ) [Designator]
+                    NoMyActParsOptOpt(
+                    ) [NoMyActParsOptOpt]
+                  ) [MyFactor]
+                ) [FactTerm]
+              ) [TermExpr]
+            ) [MyLeftExpr]
+            NoMyOptNumConst(
+            ) [NoMyOptNumConst]
+          ) [MyPrintStatement]
+        ) [MyStatementList]
+        MyPrintStatement(
+          MyLeftExpr(
+            TermExpr(
+              FactTerm(
+                MyFactor(
+                  Designator(
+                   inkrement
+                    MyMulIdentOrExprNonRecursive(
+                    ) [MyMulIdentOrExprNonRecursive]
+                  ) [Designator]
+                  MyActParsOptOpt(
+                    ActParsLBracket(
+                    ) [ActParsLBracket]
+                    MyActParsOpt(
+                      MyActParsRecursive(
+                        MyActParsNonRecursive(
+                          MyLeftExpr(
+                            TermExpr(
+                              FactTerm(
+                                MyFactor(
+                                  Designator(
+                                   niz
+                                    MyMMulIdentOrExprRecursive(
+                                      MyMulIdentOrExprNonRecursive(
+                                      ) [MyMulIdentOrExprNonRecursive]
+                                      MyMulIdentOrExprOneExpr(
+                                        Loperation(
+                                        ) [Loperation]
+                                        MyLeftExpr(
+                                          TermExpr(
+                                            FactTerm(
+                                              MyFactorNum(
+                                               2
+                                              ) [MyFactorNum]
+                                            ) [FactTerm]
+                                          ) [TermExpr]
+                                        ) [MyLeftExpr]
+                                      ) [MyMulIdentOrExprOneExpr]
+                                    ) [MyMMulIdentOrExprRecursive]
+                                  ) [Designator]
+                                  NoMyActParsOptOpt(
+                                  ) [NoMyActParsOptOpt]
+                                ) [MyFactor]
+                              ) [FactTerm]
+                            ) [TermExpr]
+                          ) [MyLeftExpr]
+                        ) [MyActParsNonRecursive]
+                        MyLeftExpr(
+                          TermExpr(
+                            FactTerm(
+                              MyFactorNum(
+                               2
+                              ) [MyFactorNum]
+                            ) [FactTerm]
+                          ) [TermExpr]
+                        ) [MyLeftExpr]
+                      ) [MyActParsRecursive]
+                    ) [MyActParsOpt]
+                    ActParsRBracket(
+                    ) [ActParsRBracket]
+                  ) [MyActParsOptOpt]
+                ) [MyFactor]
+              ) [FactTerm]
+            ) [TermExpr]
+          ) [MyLeftExpr]
+          NoMyOptNumConst(
+          ) [NoMyOptNumConst]
+        ) [MyPrintStatement]
+      ) [MyStatementList]
+    ) [MyMethodDecl]
+  ) [MyMulMethodDeclListOneRecursive]
+) [Program]
+INFO  11:42:47,200 - ===================================
+INFO  11:42:47,206 - Deklarisana konstanta jedan na liniji 5
+INFO  11:42:47,206 - Deklarisana promenljiva i na liniji 7
+INFO  11:42:47,207 - Deklarisana promenljiva ibool na liniji 8
+INFO  11:42:47,207 - Deklarisana promenljiva niz na liniji 10
+INFO  11:42:47,207 - Deklarisana metoda sum na liniji 13
+INFO  11:42:47,208 - Deklarisana metoda inkrement na liniji 18
+INFO  11:42:47,208 - Deklarisana promenljiva pom na liniji 18
+INFO  11:42:47,209 - Deklarisana metoda verify na liniji 26
+INFO  11:42:47,210 - ===================================
+INFO  11:42:47,219 - Parsiranje uspesno zavrseno!
